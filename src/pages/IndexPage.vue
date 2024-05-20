@@ -2,20 +2,29 @@
   <q-page class="row items-center justify-evenly">
     <q-layout>
       <q-drawer v-model="showFilterBar" docked="left">
-        <div class="filter-bar">
-          <h3 class="filter-title">Filtrar por</h3>
-          <q-input v-model="filterGroup" placeholder="Grupo" dense />
-          <q-select v-model="filterCategory" label="Categoria" :options="categories">
-            <template v-slot:option="{ opt }">
-              {{ opt.label }}
-            </template>
-          </q-select>
-          <span class="item-count">Itens 1-24 de 55</span>
+        <div class="q-pa-lg">
+          <h6 >Filtrar por</h6>
+          <q-form class="q-gutter-md">
+            <ExpansionFilters />
+          </q-form>
         </div>
       </q-drawer>
       <q-page-container>
         <div class="product-list">
           <ProductCard v-for="product in products" :key="product.id" :product="product" />
+        </div>
+        <div class="q-pa-lg">
+          <div class="row items-center justify-evenly">
+            <q-pagination
+              v-model="current"
+              max="55"
+              max-pages="6"
+              direction-links
+              flat
+              color="grey"
+              active-color="primary"
+              />
+          </div>
         </div>
       </q-page-container>
     </q-layout>
@@ -23,6 +32,7 @@
 </template>
 
 <script setup lang="ts">
+  import ExpansionFilters from "components/ExpansionFilters.vue";
   import ProductCard from "components/ProductCard.vue";
   import { Product } from "src/interfaces/product";
   import { ref } from "vue";
@@ -32,20 +42,9 @@
     name: "IndexPage",
   });
 
-  interface Option {
-    value: string;
-    label: string;
-  }
-
   const showFilterBar = ref(true);
-  const filterGroup = ref("");
-  const filterCategory = ref("");
-  const categories = ref<Option[]>([
-    { value: "cat1", label: "Categoria 1" },
-    { value: "cat2", label: "Categoria 2" },
-    { value: "cat3", label: "Categoria 3" },
-  ]);
   const products = ref<Product[]>(productsData as Product[]);
+  const current = ref(1);
 
 </script>
 

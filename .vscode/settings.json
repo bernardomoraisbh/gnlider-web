@@ -5,17 +5,8 @@
   "editor.guides.bracketPairs": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.codeActionsOnSave": [
-    "source.fixAll.eslint",
-    "source.organizeImports"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "html",
-    "vue"
-  ],
+  "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.organizeImports"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "html", "vue"],
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.encoding": "utf8"
@@ -24,5 +15,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.encoding": "utf8"
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
 }

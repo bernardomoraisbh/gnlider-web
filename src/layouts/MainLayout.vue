@@ -11,15 +11,12 @@
           aria-label="Menu"
           v-if="isMobile"
           />
-        <q-toolbar-title v-if="!isMobile">
-          Dentistas
-        </q-toolbar-title>
-        <q-toolbar-title v-if="!isMobile">
-          Equipamentos
-        </q-toolbar-title>
+        <div class="header-actions" v-if="!isMobile">
+          <img src="~assets/logo_full.svg" height="80" width="80"/>
+        </div>
         <div class="header-actions">
-          <q-btn flat label="Entrar" icon="person" />
-          <q-btn flat label="Ajuda" icon="help" />
+          <LoginMenu />
+          <HelpMenu />
         </div>
       </q-toolbar>
       <div class="header-container">
@@ -62,7 +59,10 @@
 </template>
 
 <script setup lang="ts">
+
   import { ref } from "vue";
+  import HelpMenu from "../components/HelpMenu.vue";
+  import LoginMenu from "../components/LoginMenu.vue";
   import { useScreenInfo } from "../composables/deviceComposable";
 
   const { isMobile } = useScreenInfo();
@@ -81,7 +81,6 @@
   /* Add your styling for the header section here */
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
 }
 
 .header-actions {
@@ -91,7 +90,7 @@
 
 .header-container {
   display: flex; /* Allow header and search bar to fit side-by-side */
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .custom-placeholder-color::placeholder {

@@ -1,2189 +1,2187 @@
-{
-  "brands": [
-    {
-      "id": 1,
-      "brandName": "2I",
-      "firstChar": "2"
-    },
-    {
-      "id": 2,
-      "brandName": "3M",
-      "firstChar": "3"
-    },
-    {
-      "id": 3,
-      "brandName": "3SHAPE",
-      "firstChar": "3"
-    },
-    {
-      "id": 4,
-      "brandName": "3M - ABZIL",
-      "firstChar": "3"
-    },
-    {
-      "id": 5,
-      "brandName": "3DISC",
-      "firstChar": "3"
-    },
-    {
-      "id": 6,
-      "brandName": "AAF",
-      "firstChar": "A"
-    },
-    {
-      "id": 7,
-      "brandName": "AALBADENT",
-      "firstChar": "A"
-    },
-    {
-      "id": 8,
-      "brandName": "ACP",
-      "firstChar": "A"
-    },
-    {
-      "id": 9,
-      "brandName": "ACRILEX",
-      "firstChar": "A"
-    },
-    {
-      "id": 10,
-      "brandName": "ACTEON",
-      "firstChar": "A"
-    },
-    {
-      "id": 11,
-      "brandName": "ACTIVE WARE",
-      "firstChar": "A"
-    },
-    {
-      "id": 12,
-      "brandName": "ADITEK",
-      "firstChar": "A"
-    },
-    {
-      "id": 13,
-      "brandName": "ADVANCED MED",
-      "firstChar": "A"
-    },
-    {
-      "id": 14,
-      "brandName": "AESTERIL",
-      "firstChar": "A"
-    },
-    {
-      "id": 15,
-      "brandName": "AG",
-      "firstChar": "A"
-    },
-    {
-      "id": 16,
-      "brandName": "AGIR",
-      "firstChar": "A"
-    },
-    {
-      "id": 17,
-      "brandName": "AIR TECHNIQUES",
-      "firstChar": "A"
-    },
-    {
-      "id": 18,
-      "brandName": "AIRZAP",
-      "firstChar": "A"
-    },
-    {
-      "id": 19,
-      "brandName": "ALLPLAN",
-      "firstChar": "A"
-    },
-    {
-      "id": 20,
-      "brandName": "ALLPRIME",
-      "firstChar": "A"
-    },
-    {
-      "id": 21,
-      "brandName": "ALLPRIME SELECT",
-      "firstChar": "A"
-    },
-    {
-      "id": 22,
-      "brandName": "ALUR MEDICAL",
-      "firstChar": "A"
-    },
-    {
-      "id": 23,
-      "brandName": "AMANNGIRRBACH",
-      "firstChar": "A"
-    },
-    {
-      "id": 24,
-      "brandName": "AMCOR",
-      "firstChar": "A"
-    },
-    {
-      "id": 25,
-      "brandName": "AMERICAN BURRS",
-      "firstChar": "A"
-    },
-    {
-      "id": 26,
-      "brandName": "AMERICAN EAGLE",
-      "firstChar": "A"
-    },
-    {
-      "id": 27,
-      "brandName": "ANGELUS",
-      "firstChar": "A"
-    },
-    {
-      "id": 28,
-      "brandName": "ANTHOGYR",
-      "firstChar": "A"
-    },
-    {
-      "id": 29,
-      "brandName": "ANYCUBIC",
-      "firstChar": "A"
-    },
-    {
-      "id": 30,
-      "brandName": "APOLO",
-      "firstChar": "A"
-    },
-    {
-      "id": 31,
-      "brandName": "ARCHNEER",
-      "firstChar": "A"
-    },
-    {
-      "id": 32,
-      "brandName": "ASFER",
-      "firstChar": "A"
-    },
-    {
-      "id": 33,
-      "brandName": "AZEPLAST",
-      "firstChar": "A"
-    },
-    {
-      "id": 34,
-      "brandName": "BACCHI",
-      "firstChar": "B"
-    },
-    {
-      "id": 35,
-      "brandName": "BANDEIRANTE",
-      "firstChar": "B"
-    },
-    {
-      "id": 36,
-      "brandName": "BAOT",
-      "firstChar": "B"
-    },
-    {
-      "id": 37,
-      "brandName": "BAUMER",
-      "firstChar": "B"
-    },
-    {
-      "id": 38,
-      "brandName": "BAUSCH",
-      "firstChar": "B"
-    },
-    {
-      "id": 39,
-      "brandName": "BD",
-      "firstChar": "B"
-    },
-    {
-      "id": 40,
-      "brandName": "BECHT",
-      "firstChar": "B"
-    },
-    {
-      "id": 41,
-      "brandName": "BEGO",
-      "firstChar": "B"
-    },
-    {
-      "id": 42,
-      "brandName": "BEKER",
-      "firstChar": "B"
-    },
-    {
-      "id": 43,
-      "brandName": "BELTEC",
-      "firstChar": "B"
-    },
-    {
-      "id": 44,
-      "brandName": "BEST CARE",
-      "firstChar": "B"
-    },
-    {
-      "id": 45,
-      "brandName": "BIANCO",
-      "firstChar": "B"
-    },
-    {
-      "id": 46,
-      "brandName": "BIC",
-      "firstChar": "B"
-    },
-    {
-      "id": 47,
-      "brandName": "BIO-ART",
-      "firstChar": "B"
-    },
-    {
-      "id": 48,
-      "brandName": "BIOCLEAN",
-      "firstChar": "B"
-    },
-    {
-      "id": 49,
-      "brandName": "BIODINÂMICA",
-      "firstChar": "B"
-    },
-    {
-      "id": 50,
-      "brandName": "BIOLAND",
-      "firstChar": "B"
-    },
-    {
-      "id": 51,
-      "brandName": "BIOLINE FIOS",
-      "firstChar": "B"
-    },
-    {
-      "id": 52,
-      "brandName": "BIOMACMED",
-      "firstChar": "B"
-    },
-    {
-      "id": 53,
-      "brandName": "BIOMEC",
-      "firstChar": "B"
-    },
-    {
-      "id": 54,
-      "brandName": "BIONNOVATION",
-      "firstChar": "B"
-    },
-    {
-      "id": 55,
-      "brandName": "BIOSIN",
-      "firstChar": "B"
-    },
-    {
-      "id": 56,
-      "brandName": "BIOSTILO",
-      "firstChar": "B"
-    },
-    {
-      "id": 57,
-      "brandName": "BIOTRON",
-      "firstChar": "B"
-    },
-    {
-      "id": 58,
-      "brandName": "BIOVIS",
-      "firstChar": "B"
-    },
-    {
-      "id": 59,
-      "brandName": "BISCO",
-      "firstChar": "B"
-    },
-    {
-      "id": 60,
-      "brandName": "BLAU FARMACÊUTICA",
-      "firstChar": "B"
-    },
-    {
-      "id": 61,
-      "brandName": "BLUE DENT",
-      "firstChar": "B"
-    },
-    {
-      "id": 62,
-      "brandName": "BLUEM",
-      "firstChar": "B"
-    },
-    {
-      "id": 63,
-      "brandName": "BLUESAIL",
-      "firstChar": "B"
-    },
-    {
-      "id": 64,
-      "brandName": "BM4",
-      "firstChar": "B"
-    },
-    {
-      "id": 65,
-      "brandName": "BOMA",
-      "firstChar": "B"
-    },
-    {
-      "id": 66,
-      "brandName": "BONE HEAL",
-      "firstChar": "B"
-    },
-    {
-      "id": 67,
-      "brandName": "BOSWORTH",
-      "firstChar": "B"
-    },
-    {
-      "id": 68,
-      "brandName": "BRADENT",
-      "firstChar": "B"
-    },
-    {
-      "id": 69,
-      "brandName": "BRINOX",
-      "firstChar": "B"
-    },
-    {
-      "id": 70,
-      "brandName": "CALTINI",
-      "firstChar": "C"
-    },
-    {
-      "id": 71,
-      "brandName": "CARBOGEL",
-      "firstChar": "C"
-    },
-    {
-      "id": 72,
-      "brandName": "CARESTREAM",
-      "firstChar": "C"
-    },
-    {
-      "id": 73,
-      "brandName": "CAVEX",
-      "firstChar": "C"
-    },
-    {
-      "id": 74,
-      "brandName": "CELMAT",
-      "firstChar": "C"
-    },
-    {
-      "id": 75,
-      "brandName": "CERTTO",
-      "firstChar": "C"
-    },
-    {
-      "id": 76,
-      "brandName": "CHAMEX",
-      "firstChar": "C"
-    },
-    {
-      "id": 77,
-      "brandName": "CIMMO",
-      "firstChar": "C"
-    },
-    {
-      "id": 78,
-      "brandName": "CIS",
-      "firstChar": "C"
-    },
-    {
-      "id": 79,
-      "brandName": "CLÁSSICO",
-      "firstChar": "C"
-    },
-    {
-      "id": 80,
-      "brandName": "CLASSY WEAR",
-      "firstChar": "C"
-    },
-    {
-      "id": 81,
-      "brandName": "CLEAN UP",
-      "firstChar": "C"
-    },
-    {
-      "id": 82,
-      "brandName": "COLGATE",
-      "firstChar": "C"
-    },
-    {
-      "id": 83,
-      "brandName": "COLTENE",
-      "firstChar": "C"
-    },
-    {
-      "id": 84,
-      "brandName": "CORALDENT",
-      "firstChar": "C"
-    },
-    {
-      "id": 85,
-      "brandName": "CORITEC",
-      "firstChar": "C"
-    },
-    {
-      "id": 86,
-      "brandName": "COTISEN",
-      "firstChar": "C"
-    },
-    {
-      "id": 87,
-      "brandName": "CREMER",
-      "firstChar": "C"
-    },
-    {
-      "id": 88,
-      "brandName": "CRIPPA",
-      "firstChar": "C"
-    },
-    {
-      "id": 89,
-      "brandName": "CRISTÁLIA",
-      "firstChar": "C"
-    },
-    {
-      "id": 90,
-      "brandName": "CRISTÓFOLI",
-      "firstChar": "C"
-    },
-    {
-      "id": 91,
-      "brandName": "CRITERIA",
-      "firstChar": "C"
-    },
-    {
-      "id": 92,
-      "brandName": "CRÓQUIS",
-      "firstChar": "C"
-    },
-    {
-      "id": 93,
-      "brandName": "CSR",
-      "firstChar": "C"
-    },
-    {
-      "id": 94,
-      "brandName": "CURAPROX",
-      "firstChar": "C"
-    },
-    {
-      "id": 95,
-      "brandName": "CVDENTUS",
-      "firstChar": "C"
-    },
-    {
-      "id": 96,
-      "brandName": "D700",
-      "firstChar": "D"
-    },
-    {
-      "id": 97,
-      "brandName": "DABI ATLANTE",
-      "firstChar": "D"
-    },
-    {
-      "id": 98,
-      "brandName": "DANA JALECOS EXCLUSIVOS",
-      "firstChar": "D"
-    },
-    {
-      "id": 99,
-      "brandName": "DCMA",
-      "firstChar": "D"
-    },
-    {
-      "id": 100,
-      "brandName": "DEDECO",
-      "firstChar": "D"
-    },
-    {
-      "id": 101,
-      "brandName": "DEFAMA",
-      "firstChar": "D"
-    },
-    {
-      "id": 102,
-      "brandName": "DEKEMA",
-      "firstChar": "D"
-    },
-    {
-      "id": 103,
-      "brandName": "DELL",
-      "firstChar": "D"
-    },
-    {
-      "id": 104,
-      "brandName": "DELLO",
-      "firstChar": "D"
-    },
-    {
-      "id": 105,
-      "brandName": "DENGO",
-      "firstChar": "D"
-    },
-    {
-      "id": 106,
-      "brandName": "DENSELL",
-      "firstChar": "D"
-    },
-    {
-      "id": 107,
-      "brandName": "DENTAL CREMER",
-      "firstChar": "D"
-    },
-    {
-      "id": 108,
-      "brandName": "DENTAL KIDS",
-      "firstChar": "D"
-    },
-    {
-      "id": 109,
-      "brandName": "DENTAL PRESS",
-      "firstChar": "D"
-    },
-    {
-      "id": 110,
-      "brandName": "DENTAL SPEED",
-      "firstChar": "D"
-    },
-    {
-      "id": 111,
-      "brandName": "DENTALCLEAN",
-      "firstChar": "D"
-    },
-    {
-      "id": 112,
-      "brandName": "DENTBRAS",
-      "firstChar": "D"
-    },
-    {
-      "id": 113,
-      "brandName": "DENTFLEX",
-      "firstChar": "D"
-    },
-    {
-      "id": 114,
-      "brandName": "DENTFUN",
-      "firstChar": "D"
-    },
-    {
-      "id": 115,
-      "brandName": "DENTONA",
-      "firstChar": "D"
-    },
-    {
-      "id": 116,
-      "brandName": "DENTORIUM",
-      "firstChar": "D"
-    },
-    {
-      "id": 117,
-      "brandName": "DENTPACK",
-      "firstChar": "D"
-    },
-    {
-      "id": 118,
-      "brandName": "DENTS",
-      "firstChar": "D"
-    },
-    {
-      "id": 119,
-      "brandName": "DENTSPLY",
-      "firstChar": "D"
-    },
-    {
-      "id": 120,
-      "brandName": "DENTSPLY SIRONA",
-      "firstChar": "D"
-    },
-    {
-      "id": 121,
-      "brandName": "DESC SHOP",
-      "firstChar": "D"
-    },
-    {
-      "id": 122,
-      "brandName": "DESCARBOX",
-      "firstChar": "D"
-    },
-    {
-      "id": 123,
-      "brandName": "DESCARPACK",
-      "firstChar": "D"
-    },
-    {
-      "id": 124,
-      "brandName": "DFL",
-      "firstChar": "D"
-    },
-    {
-      "id": 125,
-      "brandName": "DIADENT",
-      "firstChar": "D"
-    },
-    {
-      "id": 126,
-      "brandName": "DLA",
-      "firstChar": "D"
-    },
-    {
-      "id": 127,
-      "brandName": "DMC",
-      "firstChar": "D"
-    },
-    {
-      "id": 128,
-      "brandName": "DMG",
-      "firstChar": "D"
-    },
-    {
-      "id": 129,
-      "brandName": "DRA. CHERIE",
-      "firstChar": "D"
-    },
-    {
-      "id": 130,
-      "brandName": "DRA. FASHION",
-      "firstChar": "D"
-    },
-    {
-      "id": 131,
-      "brandName": "DRILLER",
-      "firstChar": "D"
-    },
-    {
-      "id": 132,
-      "brandName": "DRYSHIELD",
-      "firstChar": "D"
-    },
-    {
-      "id": 133,
-      "brandName": "DUFLEX",
-      "firstChar": "D"
-    },
-    {
-      "id": 134,
-      "brandName": "DURASTONE",
-      "firstChar": "D"
-    },
-    {
-      "id": 135,
-      "brandName": "EASY",
-      "firstChar": "E"
-    },
-    {
-      "id": 136,
-      "brandName": "EASY TDR",
-      "firstChar": "E"
-    },
-    {
-      "id": 137,
-      "brandName": "EDENTA",
-      "firstChar": "E"
-    },
-    {
-      "id": 138,
-      "brandName": "EDG",
-      "firstChar": "E"
-    },
-    {
-      "id": 139,
-      "brandName": "EDITORA PONTO",
-      "firstChar": "E"
-    },
-    {
-      "id": 140,
-      "brandName": "ELGIN",
-      "firstChar": "E"
-    },
-    {
-      "id": 141,
-      "brandName": "EMBRAMED",
-      "firstChar": "E"
-    },
-    {
-      "id": 142,
-      "brandName": "EMS",
-      "firstChar": "E"
-    },
-    {
-      "id": 143,
-      "brandName": "ENVISIONTEC",
-      "firstChar": "E"
-    },
-    {
-      "id": 144,
-      "brandName": "ESSENCE DENTAL",
-      "firstChar": "E"
-    },
-    {
-      "id": 145,
-      "brandName": "ESSENCE DENTAL VH",
-      "firstChar": "E"
-    },
-    {
-      "id": 146,
-      "brandName": "ESSITY",
-      "firstChar": "E"
-    },
-    {
-      "id": 147,
-      "brandName": "ESTILO",
-      "firstChar": "E"
-    },
-    {
-      "id": 148,
-      "brandName": "ETHICON",
-      "firstChar": "E"
-    },
-    {
-      "id": 149,
-      "brandName": "EURODONTO",
-      "firstChar": "E"
-    },
-    {
-      "id": 150,
-      "brandName": "EURONDA",
-      "firstChar": "E"
-    },
-    {
-      "id": 151,
-      "brandName": "EVOLUDENT",
-      "firstChar": "E"
-    },
-    {
-      "id": 152,
-      "brandName": "EVOTECH",
-      "firstChar": "E"
-    },
-    {
-      "id": 153,
-      "brandName": "EXOCAD",
-      "firstChar": "E"
-    },
-    {
-      "id": 154,
-      "brandName": "FABER CASTELL",
-      "firstChar": "F"
-    },
-    {
-      "id": 155,
-      "brandName": "FABINJECT",
-      "firstChar": "F"
-    },
-    {
-      "id": 156,
-      "brandName": "FAMI",
-      "firstChar": "F"
-    },
-    {
-      "id": 157,
-      "brandName": "FARMACE",
-      "firstChar": "F"
-    },
-    {
-      "id": 158,
-      "brandName": "FARMAX",
-      "firstChar": "F"
-    },
-    {
-      "id": 159,
-      "brandName": "FARMAX FARMACEUTICOS",
-      "firstChar": "F"
-    },
-    {
-      "id": 160,
-      "brandName": "FAVA",
-      "firstChar": "F"
-    },
-    {
-      "id": 161,
-      "brandName": "FGM",
-      "firstChar": "F"
-    },
-    {
-      "id": 162,
-      "brandName": "FKG",
-      "firstChar": "F"
-    },
-    {
-      "id": 163,
-      "brandName": "FOFINHO",
-      "firstChar": "F"
-    },
-    {
-      "id": 164,
-      "brandName": "FORESTADENT",
-      "firstChar": "F"
-    },
-    {
-      "id": 165,
-      "brandName": "FORMADEN",
-      "firstChar": "F"
-    },
-    {
-      "id": 166,
-      "brandName": "FORMLABS",
-      "firstChar": "F"
-    },
-    {
-      "id": 167,
-      "brandName": "FÓRMULA & AÇÃO",
-      "firstChar": "F"
-    },
-    {
-      "id": 168,
-      "brandName": "FULGOR",
-      "firstChar": "F"
-    },
-    {
-      "id": 169,
-      "brandName": "FUNWORK",
-      "firstChar": "F"
-    },
-    {
-      "id": 170,
-      "brandName": "GAP",
-      "firstChar": "G"
-    },
-    {
-      "id": 171,
-      "brandName": "GARRISON",
-      "firstChar": "G"
-    },
-    {
-      "id": 172,
-      "brandName": "GC",
-      "firstChar": "G"
-    },
-    {
-      "id": 173,
-      "brandName": "GEISTLICH",
-      "firstChar": "G"
-    },
-    {
-      "id": 174,
-      "brandName": "GNATUS",
-      "firstChar": "G"
-    },
-    {
-      "id": 175,
-      "brandName": "GOLDNER",
-      "firstChar": "G"
-    },
-    {
-      "id": 176,
-      "brandName": "GOLGRAN",
-      "firstChar": "G"
-    },
-    {
-      "id": 177,
-      "brandName": "GRAMP LINE",
-      "firstChar": "G"
-    },
-    {
-      "id": 178,
-      "brandName": "GRAY AND GOLD",
-      "firstChar": "G"
-    },
-    {
-      "id": 179,
-      "brandName": "GUM",
-      "firstChar": "G"
-    },
-    {
-      "id": 180,
-      "brandName": "HÁLITO PURO",
-      "firstChar": "H"
-    },
-    {
-      "id": 181,
-      "brandName": "HELSE",
-      "firstChar": "H"
-    },
-    {
-      "id": 182,
-      "brandName": "HENKEL",
-      "firstChar": "H"
-    },
-    {
-      "id": 183,
-      "brandName": "HIDRADERM",
-      "firstChar": "H"
-    },
-    {
-      "id": 184,
-      "brandName": "HILLO",
-      "firstChar": "H"
-    },
-    {
-      "id": 185,
-      "brandName": "HNDESC",
-      "firstChar": "H"
-    },
-    {
-      "id": 186,
-      "brandName": "HOLI COATS",
-      "firstChar": "H"
-    },
-    {
-      "id": 187,
-      "brandName": "HORICO",
-      "firstChar": "H"
-    },
-    {
-      "id": 188,
-      "brandName": "HOSPFLEX",
-      "firstChar": "H"
-    },
-    {
-      "id": 189,
-      "brandName": "HP",
-      "firstChar": "H"
-    },
-    {
-      "id": 190,
-      "brandName": "HTM",
-      "firstChar": "H"
-    },
-    {
-      "id": 191,
-      "brandName": "HU-FRIEDY",
-      "firstChar": "H"
-    },
-    {
-      "id": 192,
-      "brandName": "I-THREAD",
-      "firstChar": "I"
-    },
-    {
-      "id": 193,
-      "brandName": "IBRAMED",
-      "firstChar": "I"
-    },
-    {
-      "id": 194,
-      "brandName": "ICE",
-      "firstChar": "I"
-    },
-    {
-      "id": 195,
-      "brandName": "IDENTLAB",
-      "firstChar": "I"
-    },
-    {
-      "id": 196,
-      "brandName": "ILLUMINATE",
-      "firstChar": "I"
-    },
-    {
-      "id": 197,
-      "brandName": "IMES-ICORE",
-      "firstChar": "I"
-    },
-    {
-      "id": 198,
-      "brandName": "IMODONTO",
-      "firstChar": "I"
-    },
-    {
-      "id": 199,
-      "brandName": "INCOTERM",
-      "firstChar": "I"
-    },
-    {
-      "id": 200,
-      "brandName": "INDEX",
-      "firstChar": "I"
-    },
-    {
-      "id": 201,
-      "brandName": "INDUSBELLO",
-      "firstChar": "I"
-    },
-    {
-      "id": 202,
-      "brandName": "INJECTA",
-      "firstChar": "I"
-    },
-    {
-      "id": 203,
-      "brandName": "INJEX",
-      "firstChar": "I"
-    },
-    {
-      "id": 204,
-      "brandName": "INNOVAPHARMA",
-      "firstChar": "I"
-    },
-    {
-      "id": 205,
-      "brandName": "INOVVA MEDICAL",
-      "firstChar": "I"
-    },
-    {
-      "id": 206,
-      "brandName": "INTRA-LOCK",
-      "firstChar": "I"
-    },
-    {
-      "id": 207,
-      "brandName": "IODONTOSUL",
-      "firstChar": "I"
-    },
-    {
-      "id": 208,
-      "brandName": "IVOCLAR",
-      "firstChar": "I"
-    },
-    {
-      "id": 209,
-      "brandName": "IVOCLAR VIVADENT",
-      "firstChar": "I"
-    },
-    {
-      "id": 210,
-      "brandName": "JET",
-      "firstChar": "J"
-    },
-    {
-      "id": 211,
-      "brandName": "JHS",
-      "firstChar": "J"
-    },
-    {
-      "id": 212,
-      "brandName": "JON",
-      "firstChar": "J"
-    },
-    {
-      "id": 213,
-      "brandName": "JOTA",
-      "firstChar": "J"
-    },
-    {
-      "id": 214,
-      "brandName": "K-DENT",
-      "firstChar": "K"
-    },
-    {
-      "id": 215,
-      "brandName": "KAVO",
-      "firstChar": "K"
-    },
-    {
-      "id": 216,
-      "brandName": "KENDO",
-      "firstChar": "K"
-    },
-    {
-      "id": 217,
-      "brandName": "KERR",
-      "firstChar": "K"
-    },
-    {
-      "id": 218,
-      "brandName": "KESS",
-      "firstChar": "K"
-    },
-    {
-      "id": 219,
-      "brandName": "KETTENBACH",
-      "firstChar": "K"
-    },
-    {
-      "id": 220,
-      "brandName": "KEYSTONE",
-      "firstChar": "K"
-    },
-    {
-      "id": 221,
-      "brandName": "KG SORENSEN",
-      "firstChar": "K"
-    },
-    {
-      "id": 222,
-      "brandName": "KIMBERLY CLARK",
-      "firstChar": "K"
-    },
-    {
-      "id": 223,
-      "brandName": "KLEENEX",
-      "firstChar": "K"
-    },
-    {
-      "id": 224,
-      "brandName": "KOLPLAST",
-      "firstChar": "K"
-    },
-    {
-      "id": 225,
-      "brandName": "KOMET",
-      "firstChar": "K"
-    },
-    {
-      "id": 226,
-      "brandName": "KONDENTECH",
-      "firstChar": "K"
-    },
-    {
-      "id": 227,
-      "brandName": "KOTA",
-      "firstChar": "K"
-    },
-    {
-      "id": 228,
-      "brandName": "KOTA KNEBEL",
-      "firstChar": "K"
-    },
-    {
-      "id": 229,
-      "brandName": "KOTINI",
-      "firstChar": "K"
-    },
-    {
-      "id": 230,
-      "brandName": "KROMOTYPO4",
-      "firstChar": "K"
-    },
-    {
-      "id": 231,
-      "brandName": "KULZER",
-      "firstChar": "K"
-    },
-    {
-      "id": 232,
-      "brandName": "KURARAY",
-      "firstChar": "K"
-    },
-    {
-      "id": 233,
-      "brandName": "LA CROIX",
-      "firstChar": "L"
-    },
-    {
-      "id": 234,
-      "brandName": "LABOR IMPORT",
-      "firstChar": "L"
-    },
-    {
-      "id": 235,
-      "brandName": "LABORDENTAL",
-      "firstChar": "L"
-    },
-    {
-      "id": 236,
-      "brandName": "LALEKLA",
-      "firstChar": "L"
-    },
-    {
-      "id": 237,
-      "brandName": "LAMEDID",
-      "firstChar": "L"
-    },
-    {
-      "id": 238,
-      "brandName": "LASCOD",
-      "firstChar": "L"
-    },
-    {
-      "id": 239,
-      "brandName": "LEFORT",
-      "firstChar": "L"
-    },
-    {
-      "id": 240,
-      "brandName": "LIPER",
-      "firstChar": "L"
-    },
-    {
-      "id": 241,
-      "brandName": "LM",
-      "firstChar": "L"
-    },
-    {
-      "id": 242,
-      "brandName": "LOCTITE",
-      "firstChar": "L"
-    },
-    {
-      "id": 243,
-      "brandName": "LYSANDA",
-      "firstChar": "L"
-    },
-    {
-      "id": 244,
-      "brandName": "MAC DENTAL",
-      "firstChar": "M"
-    },
-    {
-      "id": 245,
-      "brandName": "MADEITEX",
-      "firstChar": "M"
-    },
-    {
-      "id": 246,
-      "brandName": "MAG ESTéTICA",
-      "firstChar": "M"
-    },
-    {
-      "id": 247,
-      "brandName": "MAKERTECH LABS",
-      "firstChar": "M"
-    },
-    {
-      "id": 248,
-      "brandName": "MALWEE",
-      "firstChar": "M"
-    },
-    {
-      "id": 249,
-      "brandName": "MANI",
-      "firstChar": "M"
-    },
-    {
-      "id": 250,
-      "brandName": "MAQUIRA",
-      "firstChar": "M"
-    },
-    {
-      "id": 251,
-      "brandName": "MARATHON",
-      "firstChar": "M"
-    },
-    {
-      "id": 252,
-      "brandName": "MAXICOR",
-      "firstChar": "M"
-    },
-    {
-      "id": 253,
-      "brandName": "MAXXIMED",
-      "firstChar": "M"
-    },
-    {
-      "id": 254,
-      "brandName": "MDT",
-      "firstChar": "M"
-    },
-    {
-      "id": 255,
-      "brandName": "MEDCARE",
-      "firstChar": "M"
-    },
-    {
-      "id": 256,
-      "brandName": "MEDFIO",
-      "firstChar": "M"
-    },
-    {
-      "id": 257,
-      "brandName": "MEDIS",
-      "firstChar": "M"
-    },
-    {
-      "id": 258,
-      "brandName": "MEDSTÉRIL",
-      "firstChar": "M"
-    },
-    {
-      "id": 259,
-      "brandName": "MEGALINK",
-      "firstChar": "M"
-    },
-    {
-      "id": 260,
-      "brandName": "MEISINGER",
-      "firstChar": "M"
-    },
-    {
-      "id": 261,
-      "brandName": "MELHORMED",
-      "firstChar": "M"
-    },
-    {
-      "id": 262,
-      "brandName": "META",
-      "firstChar": "M"
-    },
-    {
-      "id": 263,
-      "brandName": "METAL CHEK",
-      "firstChar": "M"
-    },
-    {
-      "id": 264,
-      "brandName": "METREX",
-      "firstChar": "M"
-    },
-    {
-      "id": 265,
-      "brandName": "MEXA BEM",
-      "firstChar": "M"
-    },
-    {
-      "id": 266,
-      "brandName": "MICERIUM",
-      "firstChar": "M"
-    },
-    {
-      "id": 267,
-      "brandName": "MICRO IMAGEM",
-      "firstChar": "M"
-    },
-    {
-      "id": 268,
-      "brandName": "MICRO MEGA",
-      "firstChar": "M"
-    },
-    {
-      "id": 269,
-      "brandName": "MICROCOPY",
-      "firstChar": "M"
-    },
-    {
-      "id": 270,
-      "brandName": "MICRODONT",
-      "firstChar": "M"
-    },
-    {
-      "id": 271,
-      "brandName": "MIG TOOLS",
-      "firstChar": "M"
-    },
-    {
-      "id": 272,
-      "brandName": "MILESTONE",
-      "firstChar": "M"
-    },
-    {
-      "id": 273,
-      "brandName": "MILLBOX",
-      "firstChar": "M"
-    },
-    {
-      "id": 274,
-      "brandName": "MILLENNIUM",
-      "firstChar": "M"
-    },
-    {
-      "id": 275,
-      "brandName": "MIXPAC",
-      "firstChar": "M"
-    },
-    {
-      "id": 276,
-      "brandName": "MK LIFE",
-      "firstChar": "M"
-    },
-    {
-      "id": 277,
-      "brandName": "MMO",
-      "firstChar": "M"
-    },
-    {
-      "id": 278,
-      "brandName": "MORELLI",
-      "firstChar": "M"
-    },
-    {
-      "id": 279,
-      "brandName": "MUNDIAL",
-      "firstChar": "M"
-    },
-    {
-      "id": 280,
-      "brandName": "N MARTINS",
-      "firstChar": "N"
-    },
-    {
-      "id": 281,
-      "brandName": "NAMASTÊ",
-      "firstChar": "N"
-    },
-    {
-      "id": 282,
-      "brandName": "NAPOLEÃO",
-      "firstChar": "N"
-    },
-    {
-      "id": 283,
-      "brandName": "NEOLAB",
-      "firstChar": "N"
-    },
-    {
-      "id": 284,
-      "brandName": "NEVE",
-      "firstChar": "N"
-    },
-    {
-      "id": 285,
-      "brandName": "NEVE PREMIUM",
-      "firstChar": "N"
-    },
-    {
-      "id": 286,
-      "brandName": "NICTONE",
-      "firstChar": "N"
-    },
-    {
-      "id": 287,
-      "brandName": "NITRONPLAST",
-      "firstChar": "N"
-    },
-    {
-      "id": 288,
-      "brandName": "NOBRE",
-      "firstChar": "N"
-    },
-    {
-      "id": 289,
-      "brandName": "NORITAKE",
-      "firstChar": "N"
-    },
-    {
-      "id": 290,
-      "brandName": "NORTON",
-      "firstChar": "N"
-    },
-    {
-      "id": 291,
-      "brandName": "NOVA OGP",
-      "firstChar": "N"
-    },
-    {
-      "id": 292,
-      "brandName": "ODONTOMEGA",
-      "firstChar": "O"
-    },
-    {
-      "id": 293,
-      "brandName": "ODOUS DE DEUS",
-      "firstChar": "O"
-    },
-    {
-      "id": 294,
-      "brandName": "OMO",
-      "firstChar": "O"
-    },
-    {
-      "id": 295,
-      "brandName": "ORAIS",
-      "firstChar": "O"
-    },
-    {
-      "id": 296,
-      "brandName": "ORAL-B",
-      "firstChar": "O"
-    },
-    {
-      "id": 297,
-      "brandName": "ORALTECH",
-      "firstChar": "O"
-    },
-    {
-      "id": 298,
-      "brandName": "ORBI",
-      "firstChar": "O"
-    },
-    {
-      "id": 299,
-      "brandName": "ORTHO ORGANIZERS",
-      "firstChar": "O"
-    },
-    {
-      "id": 300,
-      "brandName": "ORTHO PAUHER",
-      "firstChar": "O"
-    },
-    {
-      "id": 301,
-      "brandName": "ORTHOMETRIC",
-      "firstChar": "O"
-    },
-    {
-      "id": 302,
-      "brandName": "ORTOGUARU",
-      "firstChar": "O"
-    },
-    {
-      "id": 303,
-      "brandName": "P&G",
-      "firstChar": "P"
-    },
-    {
-      "id": 304,
-      "brandName": "PARAMOUNT",
-      "firstChar": "P"
-    },
-    {
-      "id": 305,
-      "brandName": "PARKELL",
-      "firstChar": "P"
-    },
-    {
-      "id": 306,
-      "brandName": "PEGOLIA PRO",
-      "firstChar": "P"
-    },
-    {
-      "id": 307,
-      "brandName": "PHARMAESTHETICS",
-      "firstChar": "P"
-    },
-    {
-      "id": 308,
-      "brandName": "PHILOZON",
-      "firstChar": "P"
-    },
-    {
-      "id": 309,
-      "brandName": "PHS",
-      "firstChar": "P"
-    },
-    {
-      "id": 310,
-      "brandName": "PILOT",
-      "firstChar": "P"
-    },
-    {
-      "id": 311,
-      "brandName": "PLASTER",
-      "firstChar": "P"
-    },
-    {
-      "id": 312,
-      "brandName": "PLENUM",
-      "firstChar": "P"
-    },
-    {
-      "id": 313,
-      "brandName": "POLARFIX",
-      "firstChar": "P"
-    },
-    {
-      "id": 314,
-      "brandName": "POLIBRAS",
-      "firstChar": "P"
-    },
-    {
-      "id": 315,
-      "brandName": "POLIDENTAL",
-      "firstChar": "P"
-    },
-    {
-      "id": 316,
-      "brandName": "POLLYMER",
-      "firstChar": "P"
-    },
-    {
-      "id": 317,
-      "brandName": "POLYDENTIA",
-      "firstChar": "P"
-    },
-    {
-      "id": 318,
-      "brandName": "POWERDENT",
-      "firstChar": "P"
-    },
-    {
-      "id": 319,
-      "brandName": "PREVEN",
-      "firstChar": "P"
-    },
-    {
-      "id": 320,
-      "brandName": "PRIMA DENTAL",
-      "firstChar": "P"
-    },
-    {
-      "id": 321,
-      "brandName": "PRISMA",
-      "firstChar": "P"
-    },
-    {
-      "id": 322,
-      "brandName": "PROCARE",
-      "firstChar": "P"
-    },
-    {
-      "id": 323,
-      "brandName": "PROFILATICA",
-      "firstChar": "P"
-    },
-    {
-      "id": 324,
-      "brandName": "PROFILL",
-      "firstChar": "P"
-    },
-    {
-      "id": 325,
-      "brandName": "PROLINK",
-      "firstChar": "P"
-    },
-    {
-      "id": 326,
-      "brandName": "PRONEW",
-      "firstChar": "P"
-    },
-    {
-      "id": 327,
-      "brandName": "PROT-CAP",
-      "firstChar": "P"
-    },
-    {
-      "id": 328,
-      "brandName": "PROTDESC",
-      "firstChar": "P"
-    },
-    {
-      "id": 329,
-      "brandName": "PROTECH-DERM",
-      "firstChar": "P"
-    },
-    {
-      "id": 330,
-      "brandName": "PROTECHNO",
-      "firstChar": "P"
-    },
-    {
-      "id": 331,
-      "brandName": "PROTÉCNI",
-      "firstChar": "P"
-    },
-    {
-      "id": 332,
-      "brandName": "PURIMAX",
-      "firstChar": "P"
-    },
-    {
-      "id": 333,
-      "brandName": "QUALITY",
-      "firstChar": "Q"
-    },
-    {
-      "id": 334,
-      "brandName": "QUIMIDROL",
-      "firstChar": "Q"
-    },
-    {
-      "id": 335,
-      "brandName": "QUINELATO",
-      "firstChar": "Q"
-    },
-    {
-      "id": 336,
-      "brandName": "RAYOVAC",
-      "firstChar": "R"
-    },
-    {
-      "id": 337,
-      "brandName": "RELIANCE",
-      "firstChar": "R"
-    },
-    {
-      "id": 338,
-      "brandName": "RENFERT",
-      "firstChar": "R"
-    },
-    {
-      "id": 339,
-      "brandName": "RENNOVA",
-      "firstChar": "R"
-    },
-    {
-      "id": 340,
-      "brandName": "RENNOVA BEAUTÉ",
-      "firstChar": "R"
-    },
-    {
-      "id": 341,
-      "brandName": "REVANESSE",
-      "firstChar": "R"
-    },
-    {
-      "id": 342,
-      "brandName": "RIBERBALL",
-      "firstChar": "R"
-    },
-    {
-      "id": 343,
-      "brandName": "RIOQUÍMICA",
-      "firstChar": "R"
-    },
-    {
-      "id": 344,
-      "brandName": "ROCALFLEX",
-      "firstChar": "R"
-    },
-    {
-      "id": 345,
-      "brandName": "ROEKO",
-      "firstChar": "R"
-    },
-    {
-      "id": 346,
-      "brandName": "RUTE FALCO",
-      "firstChar": "R"
-    },
-    {
-      "id": 347,
-      "brandName": "RUTHINIUM",
-      "firstChar": "R"
-    },
-    {
-      "id": 348,
-      "brandName": "S.E. COMERCIAL",
-      "firstChar": "S"
-    },
-    {
-      "id": 349,
-      "brandName": "SAEVO",
-      "firstChar": "S"
-    },
-    {
-      "id": 350,
-      "brandName": "SAMTEC",
-      "firstChar": "S"
-    },
-    {
-      "id": 351,
-      "brandName": "SÃO ROQUE",
-      "firstChar": "S"
-    },
-    {
-      "id": 352,
-      "brandName": "SATELEC",
-      "firstChar": "S"
-    },
-    {
-      "id": 353,
-      "brandName": "SCHELBLE",
-      "firstChar": "S"
-    },
-    {
-      "id": 354,
-      "brandName": "SCHUSTER",
-      "firstChar": "S"
-    },
-    {
-      "id": 355,
-      "brandName": "SCOTT",
-      "firstChar": "S"
-    },
-    {
-      "id": 356,
-      "brandName": "SDI",
-      "firstChar": "S"
-    },
-    {
-      "id": 357,
-      "brandName": "SEGPLAST",
-      "firstChar": "S"
-    },
-    {
-      "id": 358,
-      "brandName": "SELF BIOPRINT",
-      "firstChar": "S"
-    },
-    {
-      "id": 359,
-      "brandName": "SEPTODONT",
-      "firstChar": "S"
-    },
-    {
-      "id": 360,
-      "brandName": "SHALON",
-      "firstChar": "S"
-    },
-    {
-      "id": 361,
-      "brandName": "SHOFU",
-      "firstChar": "S"
-    },
-    {
-      "id": 362,
-      "brandName": "SINGULAR",
-      "firstChar": "S"
-    },
-    {
-      "id": 363,
-      "brandName": "SISPACK",
-      "firstChar": "S"
-    },
-    {
-      "id": 364,
-      "brandName": "SKY",
-      "firstChar": "S"
-    },
-    {
-      "id": 365,
-      "brandName": "SMART DENT",
-      "firstChar": "S"
-    },
-    {
-      "id": 366,
-      "brandName": "SMART GR",
-      "firstChar": "S"
-    },
-    {
-      "id": 367,
-      "brandName": "SMILE LINE",
-      "firstChar": "S"
-    },
-    {
-      "id": 368,
-      "brandName": "SOFIDERM",
-      "firstChar": "S"
-    },
-    {
-      "id": 369,
-      "brandName": "SOFT PLUS",
-      "firstChar": "S"
-    },
-    {
-      "id": 370,
-      "brandName": "SOLIDOR",
-      "firstChar": "S"
-    },
-    {
-      "id": 371,
-      "brandName": "SORELLA",
-      "firstChar": "S"
-    },
-    {
-      "id": 372,
-      "brandName": "SP HEALTH",
-      "firstChar": "S"
-    },
-    {
-      "id": 373,
-      "brandName": "SP PROTECTION",
-      "firstChar": "S"
-    },
-    {
-      "id": 374,
-      "brandName": "SS WHITE",
-      "firstChar": "S"
-    },
-    {
-      "id": 375,
-      "brandName": "SSPLUS",
-      "firstChar": "S"
-    },
-    {
-      "id": 376,
-      "brandName": "STARBAR",
-      "firstChar": "S"
-    },
-    {
-      "id": 377,
-      "brandName": "START QUÍMICA",
-      "firstChar": "S"
-    },
-    {
-      "id": 378,
-      "brandName": "SUGBEM",
-      "firstChar": "S"
-    },
-    {
-      "id": 379,
-      "brandName": "SUNSTAR",
-      "firstChar": "S"
-    },
-    {
-      "id": 380,
-      "brandName": "SUPERDONT",
-      "firstChar": "S"
-    },
-    {
-      "id": 381,
-      "brandName": "SUPERION",
-      "firstChar": "S"
-    },
-    {
-      "id": 382,
-      "brandName": "SUPERMAX",
-      "firstChar": "S"
-    },
-    {
-      "id": 383,
-      "brandName": "SWANN MORTON",
-      "firstChar": "S"
-    },
-    {
-      "id": 384,
-      "brandName": "SYBRONENDO",
-      "firstChar": "S"
-    },
-    {
-      "id": 385,
-      "brandName": "TAB",
-      "firstChar": "T"
-    },
-    {
-      "id": 386,
-      "brandName": "TALMAX",
-      "firstChar": "T"
-    },
-    {
-      "id": 387,
-      "brandName": "TANARI",
-      "firstChar": "T"
-    },
-    {
-      "id": 388,
-      "brandName": "TDK",
-      "firstChar": "T"
-    },
-    {
-      "id": 389,
-      "brandName": "TDV",
-      "firstChar": "T"
-    },
-    {
-      "id": 390,
-      "brandName": "TECHNEW",
-      "firstChar": "T"
-    },
-    {
-      "id": 391,
-      "brandName": "TECHSUTURE",
-      "firstChar": "T"
-    },
-    {
-      "id": 392,
-      "brandName": "TECNODENT",
-      "firstChar": "T"
-    },
-    {
-      "id": 393,
-      "brandName": "TERUMO",
-      "firstChar": "T"
-    },
-    {
-      "id": 394,
-      "brandName": "TIGRE",
-      "firstChar": "T"
-    },
-    {
-      "id": 395,
-      "brandName": "TOKUYAMA",
-      "firstChar": "T"
-    },
-    {
-      "id": 396,
-      "brandName": "TOPZ",
-      "firstChar": "T"
-    },
-    {
-      "id": 397,
-      "brandName": "TRAMONTINA",
-      "firstChar": "T"
-    },
-    {
-      "id": 398,
-      "brandName": "TRANSFOR CENTER",
-      "firstChar": "T"
-    },
-    {
-      "id": 399,
-      "brandName": "TRAYART",
-      "firstChar": "T"
-    },
-    {
-      "id": 400,
-      "brandName": "TRIUNFO",
-      "firstChar": "T"
-    },
-    {
-      "id": 401,
-      "brandName": "TURMA DA RITINHA",
-      "firstChar": "T"
-    },
-    {
-      "id": 402,
-      "brandName": "UATT",
-      "firstChar": "U"
-    },
-    {
-      "id": 403,
-      "brandName": "ULTRACOTTON",
-      "firstChar": "U"
-    },
-    {
-      "id": 404,
-      "brandName": "ULTRADENT",
-      "firstChar": "U"
-    },
-    {
-      "id": 405,
-      "brandName": "UNIGLOVES",
-      "firstChar": "U"
-    },
-    {
-      "id": 406,
-      "brandName": "UNIQMED",
-      "firstChar": "U"
-    },
-    {
-      "id": 407,
-      "brandName": "UNITEC",
-      "firstChar": "U"
-    },
-    {
-      "id": 408,
-      "brandName": "UVEX",
-      "firstChar": "U"
-    },
-    {
-      "id": 409,
-      "brandName": "VDW",
-      "firstChar": "V"
-    },
-    {
-      "id": 410,
-      "brandName": "VEDAMAX",
-      "firstChar": "V"
-    },
-    {
-      "id": 411,
-      "brandName": "VIC PHARMA",
-      "firstChar": "V"
-    },
-    {
-      "id": 412,
-      "brandName": "VIGODENT",
-      "firstChar": "V"
-    },
-    {
-      "id": 413,
-      "brandName": "VILLEVIE",
-      "firstChar": "V"
-    },
-    {
-      "id": 414,
-      "brandName": "VIPI",
-      "firstChar": "V"
-    },
-    {
-      "id": 415,
-      "brandName": "VITA",
-      "firstChar": "V"
-    },
-    {
-      "id": 416,
-      "brandName": "VIZALIS",
-      "firstChar": "V"
-    },
-    {
-      "id": 417,
-      "brandName": "VOCO",
-      "firstChar": "V"
-    },
-    {
-      "id": 418,
-      "brandName": "VOLK",
-      "firstChar": "V"
-    },
-    {
-      "id": 419,
-      "brandName": "VRC",
-      "firstChar": "V"
-    },
-    {
-      "id": 420,
-      "brandName": "W&H",
-      "firstChar": "W"
-    },
-    {
-      "id": 421,
-      "brandName": "W3D PRINT",
-      "firstChar": "W"
-    },
-    {
-      "id": 422,
-      "brandName": "WALEU",
-      "firstChar": "W"
-    },
-    {
-      "id": 423,
-      "brandName": "WATER CLEAN",
-      "firstChar": "W"
-    },
-    {
-      "id": 424,
-      "brandName": "WILCOS",
-      "firstChar": "W"
-    },
-    {
-      "id": 425,
-      "brandName": "WINFORM",
-      "firstChar": "W"
-    },
-    {
-      "id": 426,
-      "brandName": "WOSON",
-      "firstChar": "W"
-    },
-    {
-      "id": 427,
-      "brandName": "WYPALL",
-      "firstChar": "W"
-    },
-    {
-      "id": 428,
-      "brandName": "YAMAHACHI",
-      "firstChar": "Y"
-    },
-    {
-      "id": 429,
-      "brandName": "YAMAY",
-      "firstChar": "Y"
-    },
-    {
-      "id": 430,
-      "brandName": "YETI",
-      "firstChar": "Y"
-    },
-    {
-      "id": 431,
-      "brandName": "YLLER",
-      "firstChar": "Y"
-    },
-    {
-      "id": 432,
-      "brandName": "YORI",
-      "firstChar": "Y"
-    },
-    {
-      "id": 433,
-      "brandName": "ZATTY",
-      "firstChar": "Z"
-    },
-    {
-      "id": 434,
-      "brandName": "ZHERMACK",
-      "firstChar": "Z"
-    },
-    {
-      "id": 435,
-      "brandName": "ZIBAG",
-      "firstChar": "Z"
-    },
-    {
-      "id": 436,
-      "brandName": "ZIRLUX",
-      "firstChar": "Z"
-    },
-    {
-      "id": 437,
-      "brandName": "ZZAG",
-      "firstChar": "Z"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "2I",
+    "firstChar": "2"
+  },
+  {
+    "id": 2,
+    "name": "3M",
+    "firstChar": "3"
+  },
+  {
+    "id": 3,
+    "name": "3SHAPE",
+    "firstChar": "3"
+  },
+  {
+    "id": 4,
+    "name": "3M - ABZIL",
+    "firstChar": "3"
+  },
+  {
+    "id": 5,
+    "name": "3DISC",
+    "firstChar": "3"
+  },
+  {
+    "id": 6,
+    "name": "AAF",
+    "firstChar": "A"
+  },
+  {
+    "id": 7,
+    "name": "AALBADENT",
+    "firstChar": "A"
+  },
+  {
+    "id": 8,
+    "name": "ACP",
+    "firstChar": "A"
+  },
+  {
+    "id": 9,
+    "name": "ACRILEX",
+    "firstChar": "A"
+  },
+  {
+    "id": 10,
+    "name": "ACTEON",
+    "firstChar": "A"
+  },
+  {
+    "id": 11,
+    "name": "ACTIVE WARE",
+    "firstChar": "A"
+  },
+  {
+    "id": 12,
+    "name": "ADITEK",
+    "firstChar": "A"
+  },
+  {
+    "id": 13,
+    "name": "ADVANCED MED",
+    "firstChar": "A"
+  },
+  {
+    "id": 14,
+    "name": "AESTERIL",
+    "firstChar": "A"
+  },
+  {
+    "id": 15,
+    "name": "AG",
+    "firstChar": "A"
+  },
+  {
+    "id": 16,
+    "name": "AGIR",
+    "firstChar": "A"
+  },
+  {
+    "id": 17,
+    "name": "AIR TECHNIQUES",
+    "firstChar": "A"
+  },
+  {
+    "id": 18,
+    "name": "AIRZAP",
+    "firstChar": "A"
+  },
+  {
+    "id": 19,
+    "name": "ALLPLAN",
+    "firstChar": "A"
+  },
+  {
+    "id": 20,
+    "name": "ALLPRIME",
+    "firstChar": "A"
+  },
+  {
+    "id": 21,
+    "name": "ALLPRIME SELECT",
+    "firstChar": "A"
+  },
+  {
+    "id": 22,
+    "name": "ALUR MEDICAL",
+    "firstChar": "A"
+  },
+  {
+    "id": 23,
+    "name": "AMANNGIRRBACH",
+    "firstChar": "A"
+  },
+  {
+    "id": 24,
+    "name": "AMCOR",
+    "firstChar": "A"
+  },
+  {
+    "id": 25,
+    "name": "AMERICAN BURRS",
+    "firstChar": "A"
+  },
+  {
+    "id": 26,
+    "name": "AMERICAN EAGLE",
+    "firstChar": "A"
+  },
+  {
+    "id": 27,
+    "name": "ANGELUS",
+    "firstChar": "A"
+  },
+  {
+    "id": 28,
+    "name": "ANTHOGYR",
+    "firstChar": "A"
+  },
+  {
+    "id": 29,
+    "name": "ANYCUBIC",
+    "firstChar": "A"
+  },
+  {
+    "id": 30,
+    "name": "APOLO",
+    "firstChar": "A"
+  },
+  {
+    "id": 31,
+    "name": "ARCHNEER",
+    "firstChar": "A"
+  },
+  {
+    "id": 32,
+    "name": "ASFER",
+    "firstChar": "A"
+  },
+  {
+    "id": 33,
+    "name": "AZEPLAST",
+    "firstChar": "A"
+  },
+  {
+    "id": 34,
+    "name": "BACCHI",
+    "firstChar": "B"
+  },
+  {
+    "id": 35,
+    "name": "BANDEIRANTE",
+    "firstChar": "B"
+  },
+  {
+    "id": 36,
+    "name": "BAOT",
+    "firstChar": "B"
+  },
+  {
+    "id": 37,
+    "name": "BAUMER",
+    "firstChar": "B"
+  },
+  {
+    "id": 38,
+    "name": "BAUSCH",
+    "firstChar": "B"
+  },
+  {
+    "id": 39,
+    "name": "BD",
+    "firstChar": "B"
+  },
+  {
+    "id": 40,
+    "name": "BECHT",
+    "firstChar": "B"
+  },
+  {
+    "id": 41,
+    "name": "BEGO",
+    "firstChar": "B"
+  },
+  {
+    "id": 42,
+    "name": "BEKER",
+    "firstChar": "B"
+  },
+  {
+    "id": 43,
+    "name": "BELTEC",
+    "firstChar": "B"
+  },
+  {
+    "id": 44,
+    "name": "BEST CARE",
+    "firstChar": "B"
+  },
+  {
+    "id": 45,
+    "name": "BIANCO",
+    "firstChar": "B"
+  },
+  {
+    "id": 46,
+    "name": "BIC",
+    "firstChar": "B"
+  },
+  {
+    "id": 47,
+    "name": "BIO-ART",
+    "firstChar": "B"
+  },
+  {
+    "id": 48,
+    "name": "BIOCLEAN",
+    "firstChar": "B"
+  },
+  {
+    "id": 49,
+    "name": "BIODINÂMICA",
+    "firstChar": "B"
+  },
+  {
+    "id": 50,
+    "name": "BIOLAND",
+    "firstChar": "B"
+  },
+  {
+    "id": 51,
+    "name": "BIOLINE FIOS",
+    "firstChar": "B"
+  },
+  {
+    "id": 52,
+    "name": "BIOMACMED",
+    "firstChar": "B"
+  },
+  {
+    "id": 53,
+    "name": "BIOMEC",
+    "firstChar": "B"
+  },
+  {
+    "id": 54,
+    "name": "BIONNOVATION",
+    "firstChar": "B"
+  },
+  {
+    "id": 55,
+    "name": "BIOSIN",
+    "firstChar": "B"
+  },
+  {
+    "id": 56,
+    "name": "BIOSTILO",
+    "firstChar": "B"
+  },
+  {
+    "id": 57,
+    "name": "BIOTRON",
+    "firstChar": "B"
+  },
+  {
+    "id": 58,
+    "name": "BIOVIS",
+    "firstChar": "B"
+  },
+  {
+    "id": 59,
+    "name": "BISCO",
+    "firstChar": "B"
+  },
+  {
+    "id": 60,
+    "name": "BLAU FARMACÊUTICA",
+    "firstChar": "B"
+  },
+  {
+    "id": 61,
+    "name": "BLUE DENT",
+    "firstChar": "B"
+  },
+  {
+    "id": 62,
+    "name": "BLUEM",
+    "firstChar": "B"
+  },
+  {
+    "id": 63,
+    "name": "BLUESAIL",
+    "firstChar": "B"
+  },
+  {
+    "id": 64,
+    "name": "BM4",
+    "firstChar": "B"
+  },
+  {
+    "id": 65,
+    "name": "BOMA",
+    "firstChar": "B"
+  },
+  {
+    "id": 66,
+    "name": "BONE HEAL",
+    "firstChar": "B"
+  },
+  {
+    "id": 67,
+    "name": "BOSWORTH",
+    "firstChar": "B"
+  },
+  {
+    "id": 68,
+    "name": "BRADENT",
+    "firstChar": "B"
+  },
+  {
+    "id": 69,
+    "name": "BRINOX",
+    "firstChar": "B"
+  },
+  {
+    "id": 70,
+    "name": "CALTINI",
+    "firstChar": "C"
+  },
+  {
+    "id": 71,
+    "name": "CARBOGEL",
+    "firstChar": "C"
+  },
+  {
+    "id": 72,
+    "name": "CARESTREAM",
+    "firstChar": "C"
+  },
+  {
+    "id": 73,
+    "name": "CAVEX",
+    "firstChar": "C"
+  },
+  {
+    "id": 74,
+    "name": "CELMAT",
+    "firstChar": "C"
+  },
+  {
+    "id": 75,
+    "name": "CERTTO",
+    "firstChar": "C"
+  },
+  {
+    "id": 76,
+    "name": "CHAMEX",
+    "firstChar": "C"
+  },
+  {
+    "id": 77,
+    "name": "CIMMO",
+    "firstChar": "C"
+  },
+  {
+    "id": 78,
+    "name": "CIS",
+    "firstChar": "C"
+  },
+  {
+    "id": 79,
+    "name": "CLÁSSICO",
+    "firstChar": "C"
+  },
+  {
+    "id": 80,
+    "name": "CLASSY WEAR",
+    "firstChar": "C"
+  },
+  {
+    "id": 81,
+    "name": "CLEAN UP",
+    "firstChar": "C"
+  },
+  {
+    "id": 82,
+    "name": "COLGATE",
+    "firstChar": "C"
+  },
+  {
+    "id": 83,
+    "name": "COLTENE",
+    "firstChar": "C"
+  },
+  {
+    "id": 84,
+    "name": "CORALDENT",
+    "firstChar": "C"
+  },
+  {
+    "id": 85,
+    "name": "CORITEC",
+    "firstChar": "C"
+  },
+  {
+    "id": 86,
+    "name": "COTISEN",
+    "firstChar": "C"
+  },
+  {
+    "id": 87,
+    "name": "CREMER",
+    "firstChar": "C"
+  },
+  {
+    "id": 88,
+    "name": "CRIPPA",
+    "firstChar": "C"
+  },
+  {
+    "id": 89,
+    "name": "CRISTÁLIA",
+    "firstChar": "C"
+  },
+  {
+    "id": 90,
+    "name": "CRISTÓFOLI",
+    "firstChar": "C"
+  },
+  {
+    "id": 91,
+    "name": "CRITERIA",
+    "firstChar": "C"
+  },
+  {
+    "id": 92,
+    "name": "CRÓQUIS",
+    "firstChar": "C"
+  },
+  {
+    "id": 93,
+    "name": "CSR",
+    "firstChar": "C"
+  },
+  {
+    "id": 94,
+    "name": "CURAPROX",
+    "firstChar": "C"
+  },
+  {
+    "id": 95,
+    "name": "CVDENTUS",
+    "firstChar": "C"
+  },
+  {
+    "id": 96,
+    "name": "D700",
+    "firstChar": "D"
+  },
+  {
+    "id": 97,
+    "name": "DABI ATLANTE",
+    "firstChar": "D"
+  },
+  {
+    "id": 98,
+    "name": "DANA JALECOS EXCLUSIVOS",
+    "firstChar": "D"
+  },
+  {
+    "id": 99,
+    "name": "DCMA",
+    "firstChar": "D"
+  },
+  {
+    "id": 100,
+    "name": "DEDECO",
+    "firstChar": "D"
+  },
+  {
+    "id": 101,
+    "name": "DEFAMA",
+    "firstChar": "D"
+  },
+  {
+    "id": 102,
+    "name": "DEKEMA",
+    "firstChar": "D"
+  },
+  {
+    "id": 103,
+    "name": "DELL",
+    "firstChar": "D"
+  },
+  {
+    "id": 104,
+    "name": "DELLO",
+    "firstChar": "D"
+  },
+  {
+    "id": 105,
+    "name": "DENGO",
+    "firstChar": "D"
+  },
+  {
+    "id": 106,
+    "name": "DENSELL",
+    "firstChar": "D"
+  },
+  {
+    "id": 107,
+    "name": "DENTAL CREMER",
+    "firstChar": "D"
+  },
+  {
+    "id": 108,
+    "name": "DENTAL KIDS",
+    "firstChar": "D"
+  },
+  {
+    "id": 109,
+    "name": "DENTAL PRESS",
+    "firstChar": "D"
+  },
+  {
+    "id": 110,
+    "name": "DENTAL SPEED",
+    "firstChar": "D"
+  },
+  {
+    "id": 111,
+    "name": "DENTALCLEAN",
+    "firstChar": "D"
+  },
+  {
+    "id": 112,
+    "name": "DENTBRAS",
+    "firstChar": "D"
+  },
+  {
+    "id": 113,
+    "name": "DENTFLEX",
+    "firstChar": "D"
+  },
+  {
+    "id": 114,
+    "name": "DENTFUN",
+    "firstChar": "D"
+  },
+  {
+    "id": 115,
+    "name": "DENTONA",
+    "firstChar": "D"
+  },
+  {
+    "id": 116,
+    "name": "DENTORIUM",
+    "firstChar": "D"
+  },
+  {
+    "id": 117,
+    "name": "DENTPACK",
+    "firstChar": "D"
+  },
+  {
+    "id": 118,
+    "name": "DENTS",
+    "firstChar": "D"
+  },
+  {
+    "id": 119,
+    "name": "DENTSPLY",
+    "firstChar": "D"
+  },
+  {
+    "id": 120,
+    "name": "DENTSPLY SIRONA",
+    "firstChar": "D"
+  },
+  {
+    "id": 121,
+    "name": "DESC SHOP",
+    "firstChar": "D"
+  },
+  {
+    "id": 122,
+    "name": "DESCARBOX",
+    "firstChar": "D"
+  },
+  {
+    "id": 123,
+    "name": "DESCARPACK",
+    "firstChar": "D"
+  },
+  {
+    "id": 124,
+    "name": "DFL",
+    "firstChar": "D"
+  },
+  {
+    "id": 125,
+    "name": "DIADENT",
+    "firstChar": "D"
+  },
+  {
+    "id": 126,
+    "name": "DLA",
+    "firstChar": "D"
+  },
+  {
+    "id": 127,
+    "name": "DMC",
+    "firstChar": "D"
+  },
+  {
+    "id": 128,
+    "name": "DMG",
+    "firstChar": "D"
+  },
+  {
+    "id": 129,
+    "name": "DRA. CHERIE",
+    "firstChar": "D"
+  },
+  {
+    "id": 130,
+    "name": "DRA. FASHION",
+    "firstChar": "D"
+  },
+  {
+    "id": 131,
+    "name": "DRILLER",
+    "firstChar": "D"
+  },
+  {
+    "id": 132,
+    "name": "DRYSHIELD",
+    "firstChar": "D"
+  },
+  {
+    "id": 133,
+    "name": "DUFLEX",
+    "firstChar": "D"
+  },
+  {
+    "id": 134,
+    "name": "DURASTONE",
+    "firstChar": "D"
+  },
+  {
+    "id": 135,
+    "name": "EASY",
+    "firstChar": "E"
+  },
+  {
+    "id": 136,
+    "name": "EASY TDR",
+    "firstChar": "E"
+  },
+  {
+    "id": 137,
+    "name": "EDENTA",
+    "firstChar": "E"
+  },
+  {
+    "id": 138,
+    "name": "EDG",
+    "firstChar": "E"
+  },
+  {
+    "id": 139,
+    "name": "EDITORA PONTO",
+    "firstChar": "E"
+  },
+  {
+    "id": 140,
+    "name": "ELGIN",
+    "firstChar": "E"
+  },
+  {
+    "id": 141,
+    "name": "EMBRAMED",
+    "firstChar": "E"
+  },
+  {
+    "id": 142,
+    "name": "EMS",
+    "firstChar": "E"
+  },
+  {
+    "id": 143,
+    "name": "ENVISIONTEC",
+    "firstChar": "E"
+  },
+  {
+    "id": 144,
+    "name": "ESSENCE DENTAL",
+    "firstChar": "E"
+  },
+  {
+    "id": 145,
+    "name": "ESSENCE DENTAL VH",
+    "firstChar": "E"
+  },
+  {
+    "id": 146,
+    "name": "ESSITY",
+    "firstChar": "E"
+  },
+  {
+    "id": 147,
+    "name": "ESTILO",
+    "firstChar": "E"
+  },
+  {
+    "id": 148,
+    "name": "ETHICON",
+    "firstChar": "E"
+  },
+  {
+    "id": 149,
+    "name": "EURODONTO",
+    "firstChar": "E"
+  },
+  {
+    "id": 150,
+    "name": "EURONDA",
+    "firstChar": "E"
+  },
+  {
+    "id": 151,
+    "name": "EVOLUDENT",
+    "firstChar": "E"
+  },
+  {
+    "id": 152,
+    "name": "EVOTECH",
+    "firstChar": "E"
+  },
+  {
+    "id": 153,
+    "name": "EXOCAD",
+    "firstChar": "E"
+  },
+  {
+    "id": 154,
+    "name": "FABER CASTELL",
+    "firstChar": "F"
+  },
+  {
+    "id": 155,
+    "name": "FABINJECT",
+    "firstChar": "F"
+  },
+  {
+    "id": 156,
+    "name": "FAMI",
+    "firstChar": "F"
+  },
+  {
+    "id": 157,
+    "name": "FARMACE",
+    "firstChar": "F"
+  },
+  {
+    "id": 158,
+    "name": "FARMAX",
+    "firstChar": "F"
+  },
+  {
+    "id": 159,
+    "name": "FARMAX FARMACEUTICOS",
+    "firstChar": "F"
+  },
+  {
+    "id": 160,
+    "name": "FAVA",
+    "firstChar": "F"
+  },
+  {
+    "id": 161,
+    "name": "FGM",
+    "firstChar": "F"
+  },
+  {
+    "id": 162,
+    "name": "FKG",
+    "firstChar": "F"
+  },
+  {
+    "id": 163,
+    "name": "FOFINHO",
+    "firstChar": "F"
+  },
+  {
+    "id": 164,
+    "name": "FORESTADENT",
+    "firstChar": "F"
+  },
+  {
+    "id": 165,
+    "name": "FORMADEN",
+    "firstChar": "F"
+  },
+  {
+    "id": 166,
+    "name": "FORMLABS",
+    "firstChar": "F"
+  },
+  {
+    "id": 167,
+    "name": "FÓRMULA & AÇÃO",
+    "firstChar": "F"
+  },
+  {
+    "id": 168,
+    "name": "FULGOR",
+    "firstChar": "F"
+  },
+  {
+    "id": 169,
+    "name": "FUNWORK",
+    "firstChar": "F"
+  },
+  {
+    "id": 170,
+    "name": "GAP",
+    "firstChar": "G"
+  },
+  {
+    "id": 171,
+    "name": "GARRISON",
+    "firstChar": "G"
+  },
+  {
+    "id": 172,
+    "name": "GC",
+    "firstChar": "G"
+  },
+  {
+    "id": 173,
+    "name": "GEISTLICH",
+    "firstChar": "G"
+  },
+  {
+    "id": 174,
+    "name": "GNATUS",
+    "firstChar": "G"
+  },
+  {
+    "id": 175,
+    "name": "GOLDNER",
+    "firstChar": "G"
+  },
+  {
+    "id": 176,
+    "name": "GOLGRAN",
+    "firstChar": "G"
+  },
+  {
+    "id": 177,
+    "name": "GRAMP LINE",
+    "firstChar": "G"
+  },
+  {
+    "id": 178,
+    "name": "GRAY AND GOLD",
+    "firstChar": "G"
+  },
+  {
+    "id": 179,
+    "name": "GUM",
+    "firstChar": "G"
+  },
+  {
+    "id": 180,
+    "name": "HÁLITO PURO",
+    "firstChar": "H"
+  },
+  {
+    "id": 181,
+    "name": "HELSE",
+    "firstChar": "H"
+  },
+  {
+    "id": 182,
+    "name": "HENKEL",
+    "firstChar": "H"
+  },
+  {
+    "id": 183,
+    "name": "HIDRADERM",
+    "firstChar": "H"
+  },
+  {
+    "id": 184,
+    "name": "HILLO",
+    "firstChar": "H"
+  },
+  {
+    "id": 185,
+    "name": "HNDESC",
+    "firstChar": "H"
+  },
+  {
+    "id": 186,
+    "name": "HOLI COATS",
+    "firstChar": "H"
+  },
+  {
+    "id": 187,
+    "name": "HORICO",
+    "firstChar": "H"
+  },
+  {
+    "id": 188,
+    "name": "HOSPFLEX",
+    "firstChar": "H"
+  },
+  {
+    "id": 189,
+    "name": "HP",
+    "firstChar": "H"
+  },
+  {
+    "id": 190,
+    "name": "HTM",
+    "firstChar": "H"
+  },
+  {
+    "id": 191,
+    "name": "HU-FRIEDY",
+    "firstChar": "H"
+  },
+  {
+    "id": 192,
+    "name": "I-THREAD",
+    "firstChar": "I"
+  },
+  {
+    "id": 193,
+    "name": "IBRAMED",
+    "firstChar": "I"
+  },
+  {
+    "id": 194,
+    "name": "ICE",
+    "firstChar": "I"
+  },
+  {
+    "id": 195,
+    "name": "IDENTLAB",
+    "firstChar": "I"
+  },
+  {
+    "id": 196,
+    "name": "ILLUMINATE",
+    "firstChar": "I"
+  },
+  {
+    "id": 197,
+    "name": "IMES-ICORE",
+    "firstChar": "I"
+  },
+  {
+    "id": 198,
+    "name": "IMODONTO",
+    "firstChar": "I"
+  },
+  {
+    "id": 199,
+    "name": "INCOTERM",
+    "firstChar": "I"
+  },
+  {
+    "id": 200,
+    "name": "INDEX",
+    "firstChar": "I"
+  },
+  {
+    "id": 201,
+    "name": "INDUSBELLO",
+    "firstChar": "I"
+  },
+  {
+    "id": 202,
+    "name": "INJECTA",
+    "firstChar": "I"
+  },
+  {
+    "id": 203,
+    "name": "INJEX",
+    "firstChar": "I"
+  },
+  {
+    "id": 204,
+    "name": "INNOVAPHARMA",
+    "firstChar": "I"
+  },
+  {
+    "id": 205,
+    "name": "INOVVA MEDICAL",
+    "firstChar": "I"
+  },
+  {
+    "id": 206,
+    "name": "INTRA-LOCK",
+    "firstChar": "I"
+  },
+  {
+    "id": 207,
+    "name": "IODONTOSUL",
+    "firstChar": "I"
+  },
+  {
+    "id": 208,
+    "name": "IVOCLAR",
+    "firstChar": "I"
+  },
+  {
+    "id": 209,
+    "name": "IVOCLAR VIVADENT",
+    "firstChar": "I"
+  },
+  {
+    "id": 210,
+    "name": "JET",
+    "firstChar": "J"
+  },
+  {
+    "id": 211,
+    "name": "JHS",
+    "firstChar": "J"
+  },
+  {
+    "id": 212,
+    "name": "JON",
+    "firstChar": "J"
+  },
+  {
+    "id": 213,
+    "name": "JOTA",
+    "firstChar": "J"
+  },
+  {
+    "id": 214,
+    "name": "K-DENT",
+    "firstChar": "K"
+  },
+  {
+    "id": 215,
+    "name": "KAVO",
+    "firstChar": "K"
+  },
+  {
+    "id": 216,
+    "name": "KENDO",
+    "firstChar": "K"
+  },
+  {
+    "id": 217,
+    "name": "KERR",
+    "firstChar": "K"
+  },
+  {
+    "id": 218,
+    "name": "KESS",
+    "firstChar": "K"
+  },
+  {
+    "id": 219,
+    "name": "KETTENBACH",
+    "firstChar": "K"
+  },
+  {
+    "id": 220,
+    "name": "KEYSTONE",
+    "firstChar": "K"
+  },
+  {
+    "id": 221,
+    "name": "KG SORENSEN",
+    "firstChar": "K"
+  },
+  {
+    "id": 222,
+    "name": "KIMBERLY CLARK",
+    "firstChar": "K"
+  },
+  {
+    "id": 223,
+    "name": "KLEENEX",
+    "firstChar": "K"
+  },
+  {
+    "id": 224,
+    "name": "KOLPLAST",
+    "firstChar": "K"
+  },
+  {
+    "id": 225,
+    "name": "KOMET",
+    "firstChar": "K"
+  },
+  {
+    "id": 226,
+    "name": "KONDENTECH",
+    "firstChar": "K"
+  },
+  {
+    "id": 227,
+    "name": "KOTA",
+    "firstChar": "K"
+  },
+  {
+    "id": 228,
+    "name": "KOTA KNEBEL",
+    "firstChar": "K"
+  },
+  {
+    "id": 229,
+    "name": "KOTINI",
+    "firstChar": "K"
+  },
+  {
+    "id": 230,
+    "name": "KROMOTYPO4",
+    "firstChar": "K"
+  },
+  {
+    "id": 231,
+    "name": "KULZER",
+    "firstChar": "K"
+  },
+  {
+    "id": 232,
+    "name": "KURARAY",
+    "firstChar": "K"
+  },
+  {
+    "id": 233,
+    "name": "LA CROIX",
+    "firstChar": "L"
+  },
+  {
+    "id": 234,
+    "name": "LABOR IMPORT",
+    "firstChar": "L"
+  },
+  {
+    "id": 235,
+    "name": "LABORDENTAL",
+    "firstChar": "L"
+  },
+  {
+    "id": 236,
+    "name": "LALEKLA",
+    "firstChar": "L"
+  },
+  {
+    "id": 237,
+    "name": "LAMEDID",
+    "firstChar": "L"
+  },
+  {
+    "id": 238,
+    "name": "LASCOD",
+    "firstChar": "L"
+  },
+  {
+    "id": 239,
+    "name": "LEFORT",
+    "firstChar": "L"
+  },
+  {
+    "id": 240,
+    "name": "LIPER",
+    "firstChar": "L"
+  },
+  {
+    "id": 241,
+    "name": "LM",
+    "firstChar": "L"
+  },
+  {
+    "id": 242,
+    "name": "LOCTITE",
+    "firstChar": "L"
+  },
+  {
+    "id": 243,
+    "name": "LYSANDA",
+    "firstChar": "L"
+  },
+  {
+    "id": 244,
+    "name": "MAC DENTAL",
+    "firstChar": "M"
+  },
+  {
+    "id": 245,
+    "name": "MADEITEX",
+    "firstChar": "M"
+  },
+  {
+    "id": 246,
+    "name": "MAG ESTéTICA",
+    "firstChar": "M"
+  },
+  {
+    "id": 247,
+    "name": "MAKERTECH LABS",
+    "firstChar": "M"
+  },
+  {
+    "id": 248,
+    "name": "MALWEE",
+    "firstChar": "M"
+  },
+  {
+    "id": 249,
+    "name": "MANI",
+    "firstChar": "M"
+  },
+  {
+    "id": 250,
+    "name": "MAQUIRA",
+    "firstChar": "M"
+  },
+  {
+    "id": 251,
+    "name": "MARATHON",
+    "firstChar": "M"
+  },
+  {
+    "id": 252,
+    "name": "MAXICOR",
+    "firstChar": "M"
+  },
+  {
+    "id": 253,
+    "name": "MAXXIMED",
+    "firstChar": "M"
+  },
+  {
+    "id": 254,
+    "name": "MDT",
+    "firstChar": "M"
+  },
+  {
+    "id": 255,
+    "name": "MEDCARE",
+    "firstChar": "M"
+  },
+  {
+    "id": 256,
+    "name": "MEDFIO",
+    "firstChar": "M"
+  },
+  {
+    "id": 257,
+    "name": "MEDIS",
+    "firstChar": "M"
+  },
+  {
+    "id": 258,
+    "name": "MEDSTÉRIL",
+    "firstChar": "M"
+  },
+  {
+    "id": 259,
+    "name": "MEGALINK",
+    "firstChar": "M"
+  },
+  {
+    "id": 260,
+    "name": "MEISINGER",
+    "firstChar": "M"
+  },
+  {
+    "id": 261,
+    "name": "MELHORMED",
+    "firstChar": "M"
+  },
+  {
+    "id": 262,
+    "name": "META",
+    "firstChar": "M"
+  },
+  {
+    "id": 263,
+    "name": "METAL CHEK",
+    "firstChar": "M"
+  },
+  {
+    "id": 264,
+    "name": "METREX",
+    "firstChar": "M"
+  },
+  {
+    "id": 265,
+    "name": "MEXA BEM",
+    "firstChar": "M"
+  },
+  {
+    "id": 266,
+    "name": "MICERIUM",
+    "firstChar": "M"
+  },
+  {
+    "id": 267,
+    "name": "MICRO IMAGEM",
+    "firstChar": "M"
+  },
+  {
+    "id": 268,
+    "name": "MICRO MEGA",
+    "firstChar": "M"
+  },
+  {
+    "id": 269,
+    "name": "MICROCOPY",
+    "firstChar": "M"
+  },
+  {
+    "id": 270,
+    "name": "MICRODONT",
+    "firstChar": "M"
+  },
+  {
+    "id": 271,
+    "name": "MIG TOOLS",
+    "firstChar": "M"
+  },
+  {
+    "id": 272,
+    "name": "MILESTONE",
+    "firstChar": "M"
+  },
+  {
+    "id": 273,
+    "name": "MILLBOX",
+    "firstChar": "M"
+  },
+  {
+    "id": 274,
+    "name": "MILLENNIUM",
+    "firstChar": "M"
+  },
+  {
+    "id": 275,
+    "name": "MIXPAC",
+    "firstChar": "M"
+  },
+  {
+    "id": 276,
+    "name": "MK LIFE",
+    "firstChar": "M"
+  },
+  {
+    "id": 277,
+    "name": "MMO",
+    "firstChar": "M"
+  },
+  {
+    "id": 278,
+    "name": "MORELLI",
+    "firstChar": "M"
+  },
+  {
+    "id": 279,
+    "name": "MUNDIAL",
+    "firstChar": "M"
+  },
+  {
+    "id": 280,
+    "name": "N MARTINS",
+    "firstChar": "N"
+  },
+  {
+    "id": 281,
+    "name": "NAMASTÊ",
+    "firstChar": "N"
+  },
+  {
+    "id": 282,
+    "name": "NAPOLEÃO",
+    "firstChar": "N"
+  },
+  {
+    "id": 283,
+    "name": "NEOLAB",
+    "firstChar": "N"
+  },
+  {
+    "id": 284,
+    "name": "NEVE",
+    "firstChar": "N"
+  },
+  {
+    "id": 285,
+    "name": "NEVE PREMIUM",
+    "firstChar": "N"
+  },
+  {
+    "id": 286,
+    "name": "NICTONE",
+    "firstChar": "N"
+  },
+  {
+    "id": 287,
+    "name": "NITRONPLAST",
+    "firstChar": "N"
+  },
+  {
+    "id": 288,
+    "name": "NOBRE",
+    "firstChar": "N"
+  },
+  {
+    "id": 289,
+    "name": "NORITAKE",
+    "firstChar": "N"
+  },
+  {
+    "id": 290,
+    "name": "NORTON",
+    "firstChar": "N"
+  },
+  {
+    "id": 291,
+    "name": "NOVA OGP",
+    "firstChar": "N"
+  },
+  {
+    "id": 292,
+    "name": "ODONTOMEGA",
+    "firstChar": "O"
+  },
+  {
+    "id": 293,
+    "name": "ODOUS DE DEUS",
+    "firstChar": "O"
+  },
+  {
+    "id": 294,
+    "name": "OMO",
+    "firstChar": "O"
+  },
+  {
+    "id": 295,
+    "name": "ORAIS",
+    "firstChar": "O"
+  },
+  {
+    "id": 296,
+    "name": "ORAL-B",
+    "firstChar": "O"
+  },
+  {
+    "id": 297,
+    "name": "ORALTECH",
+    "firstChar": "O"
+  },
+  {
+    "id": 298,
+    "name": "ORBI",
+    "firstChar": "O"
+  },
+  {
+    "id": 299,
+    "name": "ORTHO ORGANIZERS",
+    "firstChar": "O"
+  },
+  {
+    "id": 300,
+    "name": "ORTHO PAUHER",
+    "firstChar": "O"
+  },
+  {
+    "id": 301,
+    "name": "ORTHOMETRIC",
+    "firstChar": "O"
+  },
+  {
+    "id": 302,
+    "name": "ORTOGUARU",
+    "firstChar": "O"
+  },
+  {
+    "id": 303,
+    "name": "P&G",
+    "firstChar": "P"
+  },
+  {
+    "id": 304,
+    "name": "PARAMOUNT",
+    "firstChar": "P"
+  },
+  {
+    "id": 305,
+    "name": "PARKELL",
+    "firstChar": "P"
+  },
+  {
+    "id": 306,
+    "name": "PEGOLIA PRO",
+    "firstChar": "P"
+  },
+  {
+    "id": 307,
+    "name": "PHARMAESTHETICS",
+    "firstChar": "P"
+  },
+  {
+    "id": 308,
+    "name": "PHILOZON",
+    "firstChar": "P"
+  },
+  {
+    "id": 309,
+    "name": "PHS",
+    "firstChar": "P"
+  },
+  {
+    "id": 310,
+    "name": "PILOT",
+    "firstChar": "P"
+  },
+  {
+    "id": 311,
+    "name": "PLASTER",
+    "firstChar": "P"
+  },
+  {
+    "id": 312,
+    "name": "PLENUM",
+    "firstChar": "P"
+  },
+  {
+    "id": 313,
+    "name": "POLARFIX",
+    "firstChar": "P"
+  },
+  {
+    "id": 314,
+    "name": "POLIBRAS",
+    "firstChar": "P"
+  },
+  {
+    "id": 315,
+    "name": "POLIDENTAL",
+    "firstChar": "P"
+  },
+  {
+    "id": 316,
+    "name": "POLLYMER",
+    "firstChar": "P"
+  },
+  {
+    "id": 317,
+    "name": "POLYDENTIA",
+    "firstChar": "P"
+  },
+  {
+    "id": 318,
+    "name": "POWERDENT",
+    "firstChar": "P"
+  },
+  {
+    "id": 319,
+    "name": "PREVEN",
+    "firstChar": "P"
+  },
+  {
+    "id": 320,
+    "name": "PRIMA DENTAL",
+    "firstChar": "P"
+  },
+  {
+    "id": 321,
+    "name": "PRISMA",
+    "firstChar": "P"
+  },
+  {
+    "id": 322,
+    "name": "PROCARE",
+    "firstChar": "P"
+  },
+  {
+    "id": 323,
+    "name": "PROFILATICA",
+    "firstChar": "P"
+  },
+  {
+    "id": 324,
+    "name": "PROFILL",
+    "firstChar": "P"
+  },
+  {
+    "id": 325,
+    "name": "PROLINK",
+    "firstChar": "P"
+  },
+  {
+    "id": 326,
+    "name": "PRONEW",
+    "firstChar": "P"
+  },
+  {
+    "id": 327,
+    "name": "PROT-CAP",
+    "firstChar": "P"
+  },
+  {
+    "id": 328,
+    "name": "PROTDESC",
+    "firstChar": "P"
+  },
+  {
+    "id": 329,
+    "name": "PROTECH-DERM",
+    "firstChar": "P"
+  },
+  {
+    "id": 330,
+    "name": "PROTECHNO",
+    "firstChar": "P"
+  },
+  {
+    "id": 331,
+    "name": "PROTÉCNI",
+    "firstChar": "P"
+  },
+  {
+    "id": 332,
+    "name": "PURIMAX",
+    "firstChar": "P"
+  },
+  {
+    "id": 333,
+    "name": "QUALITY",
+    "firstChar": "Q"
+  },
+  {
+    "id": 334,
+    "name": "QUIMIDROL",
+    "firstChar": "Q"
+  },
+  {
+    "id": 335,
+    "name": "QUINELATO",
+    "firstChar": "Q"
+  },
+  {
+    "id": 336,
+    "name": "RAYOVAC",
+    "firstChar": "R"
+  },
+  {
+    "id": 337,
+    "name": "RELIANCE",
+    "firstChar": "R"
+  },
+  {
+    "id": 338,
+    "name": "RENFERT",
+    "firstChar": "R"
+  },
+  {
+    "id": 339,
+    "name": "RENNOVA",
+    "firstChar": "R"
+  },
+  {
+    "id": 340,
+    "name": "RENNOVA BEAUTÉ",
+    "firstChar": "R"
+  },
+  {
+    "id": 341,
+    "name": "REVANESSE",
+    "firstChar": "R"
+  },
+  {
+    "id": 342,
+    "name": "RIBERBALL",
+    "firstChar": "R"
+  },
+  {
+    "id": 343,
+    "name": "RIOQUÍMICA",
+    "firstChar": "R"
+  },
+  {
+    "id": 344,
+    "name": "ROCALFLEX",
+    "firstChar": "R"
+  },
+  {
+    "id": 345,
+    "name": "ROEKO",
+    "firstChar": "R"
+  },
+  {
+    "id": 346,
+    "name": "RUTE FALCO",
+    "firstChar": "R"
+  },
+  {
+    "id": 347,
+    "name": "RUTHINIUM",
+    "firstChar": "R"
+  },
+  {
+    "id": 348,
+    "name": "S.E. COMERCIAL",
+    "firstChar": "S"
+  },
+  {
+    "id": 349,
+    "name": "SAEVO",
+    "firstChar": "S"
+  },
+  {
+    "id": 350,
+    "name": "SAMTEC",
+    "firstChar": "S"
+  },
+  {
+    "id": 351,
+    "name": "SÃO ROQUE",
+    "firstChar": "S"
+  },
+  {
+    "id": 352,
+    "name": "SATELEC",
+    "firstChar": "S"
+  },
+  {
+    "id": 353,
+    "name": "SCHELBLE",
+    "firstChar": "S"
+  },
+  {
+    "id": 354,
+    "name": "SCHUSTER",
+    "firstChar": "S"
+  },
+  {
+    "id": 355,
+    "name": "SCOTT",
+    "firstChar": "S"
+  },
+  {
+    "id": 356,
+    "name": "SDI",
+    "firstChar": "S"
+  },
+  {
+    "id": 357,
+    "name": "SEGPLAST",
+    "firstChar": "S"
+  },
+  {
+    "id": 358,
+    "name": "SELF BIOPRINT",
+    "firstChar": "S"
+  },
+  {
+    "id": 359,
+    "name": "SEPTODONT",
+    "firstChar": "S"
+  },
+  {
+    "id": 360,
+    "name": "SHALON",
+    "firstChar": "S"
+  },
+  {
+    "id": 361,
+    "name": "SHOFU",
+    "firstChar": "S"
+  },
+  {
+    "id": 362,
+    "name": "SINGULAR",
+    "firstChar": "S"
+  },
+  {
+    "id": 363,
+    "name": "SISPACK",
+    "firstChar": "S"
+  },
+  {
+    "id": 364,
+    "name": "SKY",
+    "firstChar": "S"
+  },
+  {
+    "id": 365,
+    "name": "SMART DENT",
+    "firstChar": "S"
+  },
+  {
+    "id": 366,
+    "name": "SMART GR",
+    "firstChar": "S"
+  },
+  {
+    "id": 367,
+    "name": "SMILE LINE",
+    "firstChar": "S"
+  },
+  {
+    "id": 368,
+    "name": "SOFIDERM",
+    "firstChar": "S"
+  },
+  {
+    "id": 369,
+    "name": "SOFT PLUS",
+    "firstChar": "S"
+  },
+  {
+    "id": 370,
+    "name": "SOLIDOR",
+    "firstChar": "S"
+  },
+  {
+    "id": 371,
+    "name": "SORELLA",
+    "firstChar": "S"
+  },
+  {
+    "id": 372,
+    "name": "SP HEALTH",
+    "firstChar": "S"
+  },
+  {
+    "id": 373,
+    "name": "SP PROTECTION",
+    "firstChar": "S"
+  },
+  {
+    "id": 374,
+    "name": "SS WHITE",
+    "firstChar": "S"
+  },
+  {
+    "id": 375,
+    "name": "SSPLUS",
+    "firstChar": "S"
+  },
+  {
+    "id": 376,
+    "name": "STARBAR",
+    "firstChar": "S"
+  },
+  {
+    "id": 377,
+    "name": "START QUÍMICA",
+    "firstChar": "S"
+  },
+  {
+    "id": 378,
+    "name": "SUGBEM",
+    "firstChar": "S"
+  },
+  {
+    "id": 379,
+    "name": "SUNSTAR",
+    "firstChar": "S"
+  },
+  {
+    "id": 380,
+    "name": "SUPERDONT",
+    "firstChar": "S"
+  },
+  {
+    "id": 381,
+    "name": "SUPERION",
+    "firstChar": "S"
+  },
+  {
+    "id": 382,
+    "name": "SUPERMAX",
+    "firstChar": "S"
+  },
+  {
+    "id": 383,
+    "name": "SWANN MORTON",
+    "firstChar": "S"
+  },
+  {
+    "id": 384,
+    "name": "SYBRONENDO",
+    "firstChar": "S"
+  },
+  {
+    "id": 385,
+    "name": "TAB",
+    "firstChar": "T"
+  },
+  {
+    "id": 386,
+    "name": "TALMAX",
+    "firstChar": "T"
+  },
+  {
+    "id": 387,
+    "name": "TANARI",
+    "firstChar": "T"
+  },
+  {
+    "id": 388,
+    "name": "TDK",
+    "firstChar": "T"
+  },
+  {
+    "id": 389,
+    "name": "TDV",
+    "firstChar": "T"
+  },
+  {
+    "id": 390,
+    "name": "TECHNEW",
+    "firstChar": "T"
+  },
+  {
+    "id": 391,
+    "name": "TECHSUTURE",
+    "firstChar": "T"
+  },
+  {
+    "id": 392,
+    "name": "TECNODENT",
+    "firstChar": "T"
+  },
+  {
+    "id": 393,
+    "name": "TERUMO",
+    "firstChar": "T"
+  },
+  {
+    "id": 394,
+    "name": "TIGRE",
+    "firstChar": "T"
+  },
+  {
+    "id": 395,
+    "name": "TOKUYAMA",
+    "firstChar": "T"
+  },
+  {
+    "id": 396,
+    "name": "TOPZ",
+    "firstChar": "T"
+  },
+  {
+    "id": 397,
+    "name": "TRAMONTINA",
+    "firstChar": "T"
+  },
+  {
+    "id": 398,
+    "name": "TRANSFOR CENTER",
+    "firstChar": "T"
+  },
+  {
+    "id": 399,
+    "name": "TRAYART",
+    "firstChar": "T"
+  },
+  {
+    "id": 400,
+    "name": "TRIUNFO",
+    "firstChar": "T"
+  },
+  {
+    "id": 401,
+    "name": "TURMA DA RITINHA",
+    "firstChar": "T"
+  },
+  {
+    "id": 402,
+    "name": "UATT",
+    "firstChar": "U"
+  },
+  {
+    "id": 403,
+    "name": "ULTRACOTTON",
+    "firstChar": "U"
+  },
+  {
+    "id": 404,
+    "name": "ULTRADENT",
+    "firstChar": "U"
+  },
+  {
+    "id": 405,
+    "name": "UNIGLOVES",
+    "firstChar": "U"
+  },
+  {
+    "id": 406,
+    "name": "UNIQMED",
+    "firstChar": "U"
+  },
+  {
+    "id": 407,
+    "name": "UNITEC",
+    "firstChar": "U"
+  },
+  {
+    "id": 408,
+    "name": "UVEX",
+    "firstChar": "U"
+  },
+  {
+    "id": 409,
+    "name": "VDW",
+    "firstChar": "V"
+  },
+  {
+    "id": 410,
+    "name": "VEDAMAX",
+    "firstChar": "V"
+  },
+  {
+    "id": 411,
+    "name": "VIC PHARMA",
+    "firstChar": "V"
+  },
+  {
+    "id": 412,
+    "name": "VIGODENT",
+    "firstChar": "V"
+  },
+  {
+    "id": 413,
+    "name": "VILLEVIE",
+    "firstChar": "V"
+  },
+  {
+    "id": 414,
+    "name": "VIPI",
+    "firstChar": "V"
+  },
+  {
+    "id": 415,
+    "name": "VITA",
+    "firstChar": "V"
+  },
+  {
+    "id": 416,
+    "name": "VIZALIS",
+    "firstChar": "V"
+  },
+  {
+    "id": 417,
+    "name": "VOCO",
+    "firstChar": "V"
+  },
+  {
+    "id": 418,
+    "name": "VOLK",
+    "firstChar": "V"
+  },
+  {
+    "id": 419,
+    "name": "VRC",
+    "firstChar": "V"
+  },
+  {
+    "id": 420,
+    "name": "W&H",
+    "firstChar": "W"
+  },
+  {
+    "id": 421,
+    "name": "W3D PRINT",
+    "firstChar": "W"
+  },
+  {
+    "id": 422,
+    "name": "WALEU",
+    "firstChar": "W"
+  },
+  {
+    "id": 423,
+    "name": "WATER CLEAN",
+    "firstChar": "W"
+  },
+  {
+    "id": 424,
+    "name": "WILCOS",
+    "firstChar": "W"
+  },
+  {
+    "id": 425,
+    "name": "WINFORM",
+    "firstChar": "W"
+  },
+  {
+    "id": 426,
+    "name": "WOSON",
+    "firstChar": "W"
+  },
+  {
+    "id": 427,
+    "name": "WYPALL",
+    "firstChar": "W"
+  },
+  {
+    "id": 428,
+    "name": "YAMAHACHI",
+    "firstChar": "Y"
+  },
+  {
+    "id": 429,
+    "name": "YAMAY",
+    "firstChar": "Y"
+  },
+  {
+    "id": 430,
+    "name": "YETI",
+    "firstChar": "Y"
+  },
+  {
+    "id": 431,
+    "name": "YLLER",
+    "firstChar": "Y"
+  },
+  {
+    "id": 432,
+    "name": "YORI",
+    "firstChar": "Y"
+  },
+  {
+    "id": 433,
+    "name": "ZATTY",
+    "firstChar": "Z"
+  },
+  {
+    "id": 434,
+    "name": "ZHERMACK",
+    "firstChar": "Z"
+  },
+  {
+    "id": 435,
+    "name": "ZIBAG",
+    "firstChar": "Z"
+  },
+  {
+    "id": 436,
+    "name": "ZIRLUX",
+    "firstChar": "Z"
+  },
+  {
+    "id": 437,
+    "name": "ZZAG",
+    "firstChar": "Z"
+  }
+]
