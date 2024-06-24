@@ -8,3 +8,14 @@ export interface Country {
   phonePrefix: string; // International dialing code
   languages: string[]; // Array of official languages
 }
+
+export const defaultCountry: Country = {
+  id: 0,
+  code: "0",
+  name: "Not Specified",
+  flag: "NONE",
+  capital: "",
+  currency: "",
+  phonePrefix: "",
+  languages: [],
+};

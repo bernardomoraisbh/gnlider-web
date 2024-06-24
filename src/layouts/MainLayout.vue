@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr fff">
     <q-header elevated>
       <q-toolbar class="header">
         <q-btn
@@ -55,6 +55,36 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer elevated class="bg-blue-8 text-white">
+      <q-toolbar class="footer-toolbar">
+        <div class="footer-section"/>
+        <div class="footer-section">
+          <div>
+            <h4>Contato</h4>
+            <p><i class="fa fa-phone"/> Telefone: (31) 9 9476-0839</p>
+            <p><i class="fab fa-whatsapp"/> WhatsApp: <a href="https://wa.me/5531994760839" target="_blank">(31) 9 9476-0839</a></p>
+            <p><i class="fa fa-envelope"/> Email: gnlider@gnlider.com.br</p>
+          </div>
+        </div>
+        <div class="footer-section">
+          <div>
+            <h4>Informações da Empresa</h4>
+            <p>Endereço: Av. Ivaí, 226 - Dom Bosco, Belo Horizonte, MG, CEP 12345-678</p>
+            <p>CNPJ: 35.006.646/0001-60</p>
+          </div>
+        </div>
+        <div class="footer-section">
+          <div>
+            <h4>Siga-nos</h4>
+            <q-btn flat round dense icon="fab fa-facebook" href="https://www.facebook.com/gnlider" target="_blank"/>
+            <q-btn flat round dense icon="fab fa-instagram" href="https://www.instagram.com/gnlidermedical?igsh=MTFlZXQwZGU4azMzNA%3D%3D" target="_blank"/>
+            <q-btn flat round dense icon="fab fa-twitter" href="https://twitter.com/gnlider" target="_blank"/>
+          </div>
+        </div>
+      </q-toolbar>
+    </q-footer>
+
   </q-layout>
 </template>
 
@@ -95,5 +125,55 @@
 
 .custom-placeholder-color::placeholder {
   color: white !important; /* Change the placeholder text color here */
+}
+
+.footer-toolbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f0c14b;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #f0c14b;
+}
+
+.footer-section i {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-toolbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+  }
 }
 </style>

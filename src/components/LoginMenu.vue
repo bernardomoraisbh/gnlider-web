@@ -17,7 +17,9 @@
               <q-btn unelevated color="light-green-7" size="lg" class="full-width" label="Login" />
             </q-card-actions>
             <q-card-section class="text-center q-px-md">
-              <p href="/" class="text-grey-6">Não possui conta? Clique aqui para cadastrar-se!</p>
+              <a href="/account/create" class="text-grey-6">
+                Não possui conta? Clique aqui para cadastrar-se!
+              </a>
             </q-card-section>
           </q-card>
         </div>

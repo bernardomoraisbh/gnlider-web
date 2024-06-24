@@ -35,7 +35,7 @@ module.exports = configure((/* ctx */) => ({
   extras: [
     // 'ionicons-v4',
     // 'mdi-v7',
-    // 'fontawesome-v6',
+    "fontawesome-v6",
     // 'eva-icons',
     // 'themify',
     // 'line-awesome',
@@ -52,7 +52,7 @@ module.exports = configure((/* ctx */) => ({
       node: "node20",
     },
 
-    vueRouterMode: "hash", // available values: 'hash', 'history'
+    vueRouterMode: "history", // available values: 'hash', 'history'
     // vueRouterBase,
     // vueDevtools,
     // vueOptionsAPI: false,
@@ -106,7 +106,7 @@ module.exports = configure((/* ctx */) => ({
       dark: "false", // or 'true' or 'false'
     },
 
-    // iconSet: 'material-icons', // Quasar icon set
+    iconSet: "material-icons", // Quasar icon set
     // lang: 'en-US', // Quasar language pack
 
     // For special cases outside of where the auto-import strategy can have an impact
