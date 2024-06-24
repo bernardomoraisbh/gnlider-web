@@ -77,9 +77,7 @@
         <div class="footer-section">
           <div>
             <h4>Siga-nos</h4>
-            <q-btn flat round dense icon="fab fa-facebook" href="https://www.facebook.com/gnlider" target="_blank"/>
             <q-btn flat round dense icon="fab fa-instagram" href="https://www.instagram.com/gnlidermedical?igsh=MTFlZXQwZGU4azMzNA%3D%3D" target="_blank"/>
-            <q-btn flat round dense icon="fab fa-twitter" href="https://twitter.com/gnlider" target="_blank"/>
           </div>
         </div>
       </q-toolbar>
