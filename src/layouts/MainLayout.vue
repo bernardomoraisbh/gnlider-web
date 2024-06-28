@@ -63,14 +63,14 @@
           <div>
             <h4>Contato</h4>
             <p><i class="fa fa-phone"/> Telefone: (31) 9 9476-0839</p>
-            <p><i class="fab fa-whatsapp"/> WhatsApp: <a href="https://wa.me/5531994760839" target="_blank">(31) 9 9476-0839</a></p>
-            <p><i class="fa fa-envelope"/> Email: gnlider@gnlider.com.br</p>
+            <p><i class="fab fa-whatsapp"/><a href="https://wa.me/5531994760839" target="_blank"> WhatsApp: (31) 9 9476-0839</a></p>
+            <p><i class="fa fa-envelope"/> Email: atendimento@gnlider.com.br</p>
           </div>
         </div>
         <div class="footer-section">
           <div>
             <h4>Informações da Empresa</h4>
-            <p>Endereço: Av. Ivaí, 226 - Dom Bosco, Belo Horizonte, MG, CEP 12345-678</p>
+            <p><a href="https://maps.app.goo.gl/dudM4j3N31uma6bp9" target="_blank">Endereço: Av. Ivaí, 226 - Dom Bosco, Belo Horizonte, MG, CEP 30850-000</a></p>
             <p>CNPJ: 35.006.646/0001-60</p>
           </div>
         </div>
@@ -78,6 +78,8 @@
           <div>
             <h4>Siga-nos</h4>
             <q-btn flat round dense icon="fab fa-instagram" href="https://www.instagram.com/gnlidermedical?igsh=MTFlZXQwZGU4azMzNA%3D%3D" target="_blank"/>
+            <p>&ensp;</p>
+            <p>&ensp;</p>
           </div>
         </div>
       </q-toolbar>
@@ -129,12 +131,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
 }
 
 .footer-section {
   flex: 1;
-  margin: 10px;
+  margin: 5px;
 }
 
 .footer-title {
@@ -143,14 +145,14 @@
 }
 
 .footer-section h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #f0c14b;
 }
 
 .footer-section p,
 .footer-section a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   color: #ddd;
   text-decoration: none;
@@ -171,7 +173,7 @@
   }
 
   .footer-section {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 }
 </style>

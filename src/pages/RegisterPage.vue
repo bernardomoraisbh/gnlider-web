@@ -1,62 +1,74 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <q-layout>
-      <q-page-container>
-        <div class="q-pa-md">
-          <div class="flex justify-between">
-            <div> Passo 2 de 3 </div>
-            <div>Selecione o tipo de conta</div>
-          </div>
+  <q-page class="register-page">
+    <q-card class="q-pa-md q-mx-auto register-card">
+      <q-tabs v-model="activeTab" class="text-primary" align="center">
+        <q-tab name="fisica" label="PESSOA FISICA" />
+        <q-tab name="juridica" label="PESSOA JURIDICA" />
+      </q-tabs>
+      <q-separator />
 
-          <div class="text-h5 mt-4"> Laboratório </div>
-
-          <div class="flex flex-wrap justify-evenly mt-4">
-            <q-btn flat label="Pessoa Física" color="primary"/>
-            <q-btn flat label="Pessoa Jurídica" color="primary"/>
-          </div>
-
-          <div class="q-pa-md mt-4">
-            <q-input v-model="nomeInput.name" label="Nome" type="text" />
-            <q-input v-model="nomeInput.surName" label="Sobrenome" type="text" />
-            <q-input v-model="nomeInput.birthday" label="Nascimento" type="date" />
-            <q-input v-model="nomeInput.sex.description" label="Sexo (Opcional)" type="text" />
-            <q-input v-model="nomeInput.cpf" label="CPF" type="text" />
-            <q-input v-model="nomeInput.profession.description" label="Profissão" type="text" />
-
-            <div class="flex items-center mt-4">
+      <q-tab-panels v-model="activeTab" animated>
+        <q-tab-panel name="fisica">
+          <q-form @submit.prevent="onSubmit">
+            <div class="q-gutter-y-md column">
+              <q-input outlined v-model="nomeInput.name" label="Nome" type="text" />
+              <q-input outlined v-model="nomeInput.surName" label="Sobrenome" type="text" />
+              <q-input outlined v-model="nomeInput.birthday" label="Nascimento" type="date" ou/>
+              <q-input outlined
+                       v-model="nomeInput.sex.description" label="Sexo (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.cpf" label="CPF" type="text" />
+              <q-input outlined
+                       v-model="nomeInput.profession.description" label="Profissão" type="text" />
               <q-checkbox label="Possui CRO? (Opcional)" v-model="isChecked" />
-              <q-input v-model="nomeInput.cro" v-if="isChecked"
+              <q-input outlined v-model="nomeInput.cro" v-if="isChecked"
                        label="Registro (CRO) (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.croState.abbreviation"
+                       label="UF Registro (CRO) (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.phone" label="Celular (Opcional)" type="tel">
+                <template v-slot:append>
+                  <q-icon name="whatsapp" color="green" />
+                </template>
+              </q-input>
+              <q-input outlined v-model="nomeInput.phone" label="Telefone (Opcional)" type="tel" />
+              <q-btn type="submit" label="Cadastrar" color="primary" class="full-width" />
             </div>
-
-            <q-input v-model="nomeInput.croState.abbreviation"
-                     label="UF Registro (CRO) (Opcional)" type="text" />
-
-            <p class="text-caption mt-2">
-              Ao fornecer o seu CRO, disponibilizaremos produtos exclusivos para o
-              exercício da sua profissão como: anestésicos, materiais inflamatórios e outros.
-            </p>
-
-            <div class="flex items-center mt-4">
-              <q-input v-model="nomeInput.phone" label="Celular (Opcional)" type="tel" />
-              <q-icon class="ml-2" name="whatsapp" color="green" />
+          </q-form>
+        </q-tab-panel>
+        <q-tab-panel name="juridica">
+          <q-form @submit.prevent="onSubmit">
+            <div class="q-gutter-y-md column">
+              <q-input outlined v-model="nomeInput.name" label="Nome" type="text" />
+              <q-input outlined v-model="nomeInput.surName" label="Sobrenome" type="text" />
+              <q-input outlined v-model="nomeInput.birthday" label="Nascimento" type="date" />
+              <q-input outlined v-model="nomeInput.sex.description"
+                       label="Sexo (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.cpf" label="CNPJ" type="text" />
+              <q-input outlined v-model="nomeInput.profession.description"
+                       label="Profissão" type="text" />
+              <q-checkbox label="Possui CRO? (Opcional)" v-model="isChecked" />
+              <q-input outlined v-model="nomeInput.cro" v-if="isChecked"
+                       label="Registro (CRO) (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.croState.abbreviation"
+                       label="UF Registro (CRO) (Opcional)" type="text" />
+              <q-input outlined v-model="nomeInput.phone" label="Celular (Opcional)" type="tel">
+                <template v-slot:append>
+                  <q-icon name="whatsapp" color="green" />
+                </template>
+              </q-input>
+              <q-input outlined v-model="nomeInput.phone" label="Telefone (Opcional)"
+                       type="tel"/>
+              <q-btn type="submit" label="Cadastrar" color="primary" class="full-width" />
             </div>
-            <q-input v-model="nomeInput.phone" label="Telefone (Opcional)" type="tel" />
-          </div>
-
-          <div class="flex justify-between mt-4">
-            <q-btn flat label="Voltar para perfil" color="primary" />
-            <q-btn label="Continuar" color="primary" />
-          </div>
-        </div>
-      </q-page-container>
-    </q-layout>
+          </q-form>
+        </q-tab-panel>
+      </q-tab-panels>
+    </q-card>
   </q-page>
 </template>
 
 <script setup lang="ts">
   import { User, defaultUser } from "src/interfaces/user";
-  import { ref } from "vue";
+  import { computed, ref } from "vue";
 
   defineOptions({
     name: "RegisterPage",
@@ -64,12 +76,63 @@
 
   const isChecked = ref(false);
 
+  const activeTab = ref("fisica");
+
   const nomeInput = ref<User>(defaultUser);
+
+  const onSubmit = () => {
+    console.log("Form Submitted:", nomeInput.value);
+  };
+
+  const cardStyle = computed(() => {
+    const width = window.innerWidth;
+    if (width < 600){
+      return { maxWidth: "95%" };
+    } if (width < 1200){
+      return { maxWidth: "80%" };
+    }
+    return { maxWidth: "60%" };
+  });
 </script>
 
 <style scoped>
-/* Adjust styles as needed */
-.q-pa-md {
-  padding: 20px;
+.register-page {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;  /* Ensure no extra margin on the page */
+  padding: 0;  /* Ensure no extra padding on the page */
+  padding-top: 1vh;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.register-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px; /* Default for large screens */
+  min-width: 300px; /* Minimum width for small screens */
+}
+
+@media (min-width: 600px) {
+  .register-page {
+    height: 80vh;
+  }
+  .register-card {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .register-page {
+    height: 40vh;
+  }
+
+  .register-card {
+    max-width: 800px;
+  }
 }
 </style>
