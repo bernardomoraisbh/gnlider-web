@@ -13,7 +13,7 @@
             <div class="q-gutter-y-md column">
               <q-input outlined v-model="nomeInput.name" label="Nome" type="text" />
               <q-input outlined v-model="nomeInput.surName" label="Sobrenome" type="text" />
-              <q-input outlined v-model="nomeInput.birthday" label="Nascimento" type="date" ou/>
+              <q-input outlined v-model="nomeInput.birthday" label="Nascimento" type="date" />
               <q-input outlined
                        v-model="nomeInput.sex.description" label="Sexo (Opcional)" type="text" />
               <q-input outlined v-model="nomeInput.cpf" label="CPF" type="text" />
@@ -50,7 +50,7 @@
                        label="Registro (CRO) (Opcional)" type="text" />
               <q-input outlined v-model="nomeInput.croState.abbreviation"
                        label="UF Registro (CRO) (Opcional)" type="text" />
-              <q-input outlined v-model="nomeInput.phone" label="Celular (Opcional)" type="tel">
+              <q-input outlined v-model="nomeInput.phone" label="Celular" type="tel">
                 <template v-slot:append>
                   <q-icon name="whatsapp" color="green" />
                 </template>
@@ -68,7 +68,7 @@
 
 <script setup lang="ts">
   import { User, defaultUser } from "src/interfaces/user";
-  import { computed, ref } from "vue";
+  import { ref } from "vue";
 
   defineOptions({
     name: "RegisterPage",
@@ -81,18 +81,9 @@
   const nomeInput = ref<User>(defaultUser);
 
   const onSubmit = () => {
+    // eslint-disable-next-line no-console
     console.log("Form Submitted:", nomeInput.value);
   };
-
-  const cardStyle = computed(() => {
-    const width = window.innerWidth;
-    if (width < 600){
-      return { maxWidth: "95%" };
-    } if (width < 1200){
-      return { maxWidth: "80%" };
-    }
-    return { maxWidth: "60%" };
-  });
 </script>
 
 <style scoped>

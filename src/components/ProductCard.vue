@@ -1,5 +1,6 @@
 <template>
-  <q-card class="product-card">
+  <q-card class="product-card"
+          @click="productRedirect">
     <q-img :src="product.productImage1Url" alt="Product Image"/>
     <div><b>{{ product.name.substring(0, 66) }}{{ product.name.length > 66 ? '...' : '' }}</b></div>
     <div/>
@@ -27,18 +28,25 @@
 </template>
 
 <script setup lang="ts">
-  import { defineProps, ref, withDefaults } from "vue";
+  import { computed, defineProps, ref, withDefaults } from "vue";
+  import { useRouter } from "vue-router";
+  import { useStringUtils } from "../composables/stringUtils";
   import { Product } from "../interfaces/product";
 
   defineOptions({
     name: "ProductCard",
   });
 
+  const { normalizeString } = useStringUtils();
+
   const count = ref(1);
+
+  const router = useRouter();
 
   const incrementCount = () => {
     count.value++;
   };
+
   const decrementCount = () => {
     if (count.value > 1){
       count.value--;
@@ -49,7 +57,7 @@
     product: Product;
   }
 
-  withDefaults(defineProps<Props>(), {
+  const props = withDefaults(defineProps<Props>(), {
     product: (): Product => ({
       id: 1,
       name: "1/5 Condicionador Ácido Fluorídrico Porcelana 10% - Maquira",
@@ -94,6 +102,12 @@ Instruções de Uso
       productVideoUrl: "https://cdn.dentalcremer.com.br/produtos/550/embalagem-condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
     }),
   });
+
+  const querySafeProductName = computed(() => normalizeString(props.product.name));
+
+  const productRedirect = () => {
+    router.push({ path: `/product/${querySafeProductName.value}`, query: { id: props.product?.id } });
+  };
 </script>
 
 <style scoped>

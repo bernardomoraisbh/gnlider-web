@@ -6,6 +6,6 @@ export interface Sex {
 
 export const defaultSex: Sex = {
   id: 0,
-  name: "Not Specified",
-  description: "Default Description",
+  name: "F",
+  description: "Feminino",
 };

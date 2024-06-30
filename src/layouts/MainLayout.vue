@@ -12,7 +12,9 @@
           v-if="isMobile"
           />
         <div class="header-actions" v-if="!isMobile">
-          <img src="~assets/logo_full.svg" height="80" width="80"/>
+          <img src="~assets/logo_full.svg" height="80" width="80"
+               @click="homeRedirect"
+               style="cursor: pointer;"/>
         </div>
         <div class="header-actions">
           <LoginMenu />
@@ -78,6 +80,7 @@
           <div>
             <h4>Siga-nos</h4>
             <q-btn flat round dense icon="fab fa-instagram" href="https://www.instagram.com/gnlidermedical?igsh=MTFlZXQwZGU4azMzNA%3D%3D" target="_blank"/>
+            <q-btn flat round dense icon="fab fa-whatsapp" href="https://wa.me/5531994760839" target="_blank"/>
             <p>&ensp;</p>
             <p>&ensp;</p>
           </div>
@@ -91,11 +94,13 @@
 <script setup lang="ts">
 
   import { ref } from "vue";
+  import { useRouter } from "vue-router";
   import HelpMenu from "../components/HelpMenu.vue";
   import LoginMenu from "../components/LoginMenu.vue";
   import { useScreenInfo } from "../composables/deviceComposable";
 
   const { isMobile } = useScreenInfo();
+  const router = useRouter();
 
   defineOptions({
     name: "MainLayout",
@@ -104,6 +109,10 @@
   const leftDrawerOpen = ref(false);
 
   const searchTerm = ref("");
+
+  const homeRedirect = () => {
+    router.push({ path: "/" });
+  };
 </script>
 
 <style scoped>

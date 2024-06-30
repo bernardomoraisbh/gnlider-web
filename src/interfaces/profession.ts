@@ -6,6 +6,6 @@ export interface Profession {
 
 export const defaultProfession: Profession = {
   id: 0,
-  name: "Not Specified",
-  description: "Default Description",
+  name: "Médico",
+  description: "Médico",
 };
