@@ -10,6 +10,13 @@ const routes: RouteRecordRaw[] = [
       { path: "/product/:productName", component: () => import("src/pages/ProductDetails.vue") },
     ],
   },
+  {
+    path: "/management",
+    component: () => import("layouts/MainLayoutAdmin.vue"),
+    children: [
+      { path: "", component: () => import("src/pages/admin/AdminIndexPage.vue") },
+    ],
+  },
 
   // Always leave this as last one,
   // but you can also remove it
