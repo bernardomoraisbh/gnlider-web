@@ -61,7 +61,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-blue-8 text-white">
+    <q-footer elevated class="text-white">
       <q-toolbar class="footer-toolbar">
         <div class="footer-section"/>
         <div class="footer-section">
@@ -69,7 +69,11 @@
             <h4>Contato</h4>
             <p><i class="fa fa-phone"/> Telefone: (31) 9 9476-0839</p>
             <p><i class="fab fa-whatsapp"/><a href="https://wa.me/5531994760839" target="_blank"> WhatsApp: (31) 9 9476-0839</a></p>
-            <p><i class="fa fa-envelope"/> Email: atendimento@gnlider.com.br</p>
+            <p><i class="fa fa-envelope"/>Email:
+              <a href="mailto:naoresponda@gnlider.com.br" target="_blank">
+                atendimento@gnlider.com.br
+              </a>
+            </p>
           </div>
         </div>
         <div class="footer-section">
