@@ -18,9 +18,9 @@
 
     <q-card-actions style="justify-content: space-between;">
       <div class="quantity-box">
-        <q-btn flat round icon="remove" @click="decrementCount" :disabled="count === 1" />
+        <q-btn flat round icon="remove" @click="cartRemove" :disabled="count === 1" />
         <span>{{ count }}</span>
-        <q-btn flat round icon="add" @click="incrementCount" :disabled="count === product.stock"/>
+        <q-btn flat round icon="add" @click="cartAdd" :disabled="count === product.stock"/>
       </div>
       <q-btn flat>Adicionar</q-btn>
     </q-card-actions>
@@ -32,6 +32,9 @@
   import { useRouter } from "vue-router";
   import { useStringUtils } from "../composables/stringUtils";
   import { Product } from "../interfaces/product";
+  import { useCartStore } from "../stores/cart";
+
+  const cartStore = useCartStore();
 
   defineOptions({
     name: "ProductCard",
@@ -42,16 +45,6 @@
   const count = ref(1);
 
   const router = useRouter();
-
-  const incrementCount = () => {
-    count.value++;
-  };
-
-  const decrementCount = () => {
-    if (count.value > 1){
-      count.value--;
-    }
-  };
 
   interface Props {
     product: Product;
@@ -107,6 +100,14 @@ Instruções de Uso
 
   const productRedirect = () => {
     router.push({ path: `/product/${querySafeProductName.value}`, query: { id: props.product?.id } });
+  };
+
+  const cartAdd = () => {
+    cartStore.addProduct(props.product);
+  };
+
+  const cartRemove = () => {
+    cartStore.removeProduct(props.product?.id);
   };
 </script>
 

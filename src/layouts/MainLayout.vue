@@ -40,7 +40,8 @@
               <q-icon name="search" />
             </template>
           </q-input>
-          <q-btn flat label="Carrinho" icon="shopping_cart" />
+          <q-btn flat label="Carrinho" icon="shopping_cart"
+                 @click="cartStore.changeRightDrawerCart()"/>
         </q-toolbar>
       </div>
     </q-header>
@@ -53,6 +54,8 @@
         <!--TODO ADICIONAR MENUS LATERAIS MOBILE-->
       </q-list>
     </q-drawer>
+
+    <RightDrawerCart />
 
     <q-page-container>
       <router-view />
@@ -97,7 +100,11 @@
   import { useRouter } from "vue-router";
   import HelpMenu from "../components/HelpMenu.vue";
   import LoginMenu from "../components/LoginMenu.vue";
+  import RightDrawerCart from "../components/RightDrawerCart.vue";
   import { useScreenInfo } from "../composables/deviceComposable";
+  import { useCartStore } from "../stores/cart";
+
+  const cartStore = useCartStore();
 
   const { isMobile } = useScreenInfo();
   const router = useRouter();
