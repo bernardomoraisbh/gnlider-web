@@ -1,23 +1,24 @@
 <template>
   <q-card class="product-card" @click="productRedirect">
-    <q-img :src="product.productImage1Url" alt="Product Image"/>
-    <div>
+    <q-img :src="product.productImage1Url" alt="Product Image" class="product-image"/>
+    <div class="product-name">
       <b>{{ product.name.substring(0, 66) }}{{ product.name.length > 66 ? '...' : '' }}</b>
     </div>
-    <div/>
-    <div class="text-caption text-grey">
+
+    <div class="product-description text-caption text-grey">
       {{ product.resumedDescription.substring(0, 55) }}
       {{ product.resumedDescription.length > 66 ? '...' : '' }}
     </div>
+
     <div class="product-price">
-      <span style="font-size: 1.2rem; font-weight: 700;">
+      <span class="price">
         {{ product.price.currency }} {{ product.price.amount.toFixed(2) }}
       </span>
     </div>
 
     <q-separator />
 
-    <q-card-actions style="justify-content: space-between;">
+    <q-card-actions class="card-actions">
       <div class="quantity-box">
         <q-btn flat round icon="remove" @click.stop="cartRemove" :disabled="count === 1" />
         <span>{{ count }}</span>
@@ -123,32 +124,78 @@ Instruções de Uso
 
 <style scoped>
 .product-card {
-  /* Add your styling for product cards here */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer; /* Optional: Add hover effect */
+  cursor: pointer;
+  height: 100%;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 3rem;
+  margin-top: 1rem;
+}
+
+.product-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 2rem;
+  margin-top: 0.5rem;
 }
 
 .product-price {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
 .quantity-box {
-  box-sizing: border-box;
   background: #f9f9f9;
   padding: 0.1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
-  display: flex; /* Optional: Align buttons horizontally */
-  align-items: center; /* Optional: Center buttons vertically */
+  display: flex;
+  align-items: center;
 }
 
-.quantity-box .q-btn + .q-btn { /* Add margin between buttons */
+.quantity-box .q-btn + .q-btn {
   margin-left: 5px;
+}
+
+.quantity-box span {
+  width: 2rem;
+  text-align: center;
 }
 </style>
