@@ -16,7 +16,7 @@
       </span>
     </div>
 
-    <q-separator />
+    <q-separator class="separator"/>
 
     <q-card-actions class="card-actions">
       <div class="quantity-box">
@@ -140,33 +140,22 @@ Instruções de Uso
   object-fit: cover;
 }
 
-.product-name {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.product-name,
+.product-description {
+  text-align: left;
   min-height: 3rem;
-  margin-top: 1rem;
 }
 
 .product-description {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   min-height: 2rem;
   margin-top: 0.5rem;
 }
 
 .product-price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  text-align: left;
 }
 
 .price {
@@ -174,11 +163,14 @@ Instruções de Uso
   font-weight: 700;
 }
 
+.separator {
+  margin-top: auto; /* Ensures separator is at the bottom of the content */
+}
+
 .card-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: auto;
 }
 
 .quantity-box {

@@ -92,38 +92,24 @@
 
   const { isMobile } = useScreenInfo();
 
-  const product = ref({
-    id: 1,
-    name: "1/5 Condicionador Ácido Fluorídrico Porcelana 10% - Maquira",
-    resumedDescription: "Embalagem com 1 seringa de 2,5ml.",
-    bigDescription:
-      "* Boa viscosidade.\n* Fácil remoção.\n* Não apresenta risco de escoamento.\n* É contraindicado o uso em pacientes com sensibilidades aos componentes do produto.\n* Registro ANVISA: 80322400046.\n\nInformações Técnicas\n* Composição: Ácido fluorídrico na concentração de 10%, espessante, corante e água purificada.\n* Armazenar em temperatura entre 5°C e 25°C.",
-    application:
-      "`\n\nO Condicionador Ácido Fluorídrico Porcelana 10% da Maquira é indicado para realizar o condicionamento superficial de porcelanas dentais para adesão em processos de restauração em vidro ceramizado. Através da sua ótima viscosidade, permite maior e melhor retenção dos materiais resinosos nas restaurações com porcelanas feldspáticas, vidros ceramizados e fixação de bráquetes ortodônticos.\nVantagens de utilizar o Condicionador Ácido Fluorídrico Porcelana 10% da Maquira\n\nAlém de apresentar ótima densidade para maior segurança na aplicação, o produto conta com corante em sua composição, que permite melhor visualização do produto na região a ser condicionada. Também possibilita fácil remoção do produto através da sua afinidade com água.\n\nInstruções de Uso\n\n* Para porcelana feldspática: utilizar por 1-2 minutos.\n* Para vidros ceramizados usinados: utilizar por 1 minuto.\n* Para vidros ceramizados prensados/injetados: utilizar por 20-30 segundos.\n* Utilizar água em abundância na remoção do produto, pois o ácido fluorídrico em contato com o esmalte pode causar descalcificação óssea.\n* Para procedimentos ortodônticos: remover o produto com algodão ou sugador cirúrgico.\n* Atenção: seguir sempre as orientações de uso do fabricante.",
-    aditionalInformation: "Acesse mais informações no Manual do Condicionador Ácido Fluorídrico 10% da Maquira.",
-    restrictSelling: false,
-    price: {
-      amount: 19.9,
-      currency: "R$",
-    },
-    stock: 5,
-    referenceCode: "384994",
-    productImage1Url:
-      "https://cdn.dentalcremer.com.br/produtos/550/condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
-    productImage2Url:
-      "https://cdn.dentalcremer.com.br/produtos/550/condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
-    productImage3Url:
-      "https://cdn.dentalcremer.com.br/produtos/550/seringa-condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
-    productImage4Url:
-      "https://cdn.dentalcremer.com.br/produtos/550/embalagem-condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
-    productVideoUrl:
-      "https://cdn.dentalcremer.com.br/produtos/550/embalagem-condicionador-acido-fluoridrico-porcelana-10-maquira-384994.jpg",
+  import { Product } from "src/interfaces/product";
+  import productsData from "../mocks/products.json"; // Import the JSON file containing the products
+
+  import { useRoute } from "vue-router";
+
+  const route = useRoute();
+
+  const products = ref<Product[]>(productsData as Product[]);
+
+  const product = computed<Product | null>(() => {
+    const queryId = parseInt(route.query.id as string, 10);
+    return products.value.find((productFilter) => productFilter.id === queryId) || null;
   });
 
-  const productImages = computed(() => [product.value.productImage1Url,
-                                        product.value.productImage2Url,
-                                        product.value.productImage3Url,
-                                        product.value.productImage4Url,
+  const productImages = computed(() => [product.value?.productImage1Url,
+                                        product.value?.productImage2Url,
+                                        product.value?.productImage3Url,
+                                        product.value?.productImage4Url,
   ]);
 
   const slide = ref(1);
