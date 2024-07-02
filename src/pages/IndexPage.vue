@@ -1,7 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     <q-layout>
-      <q-drawer v-model="showFilterBar" docked="left">
+      <q-drawer v-if="false" v-model="showFilterBar" docked="left">
         <div class="q-pa-lg">
           <h6 >Filtrar por</h6>
           <q-form class="q-gutter-md">

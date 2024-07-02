@@ -1,8 +1,9 @@
 <template>
-  <q-card class="product-card"
-          @click="productRedirect">
+  <q-card class="product-card" @click="productRedirect">
     <q-img :src="product.productImage1Url" alt="Product Image"/>
-    <div><b>{{ product.name.substring(0, 66) }}{{ product.name.length > 66 ? '...' : '' }}</b></div>
+    <div>
+      <b>{{ product.name.substring(0, 66) }}{{ product.name.length > 66 ? '...' : '' }}</b>
+    </div>
     <div/>
     <div class="text-caption text-grey">
       {{ product.resumedDescription.substring(0, 55) }}
@@ -18,11 +19,11 @@
 
     <q-card-actions style="justify-content: space-between;">
       <div class="quantity-box">
-        <q-btn flat round icon="remove" @click="cartRemove" :disabled="count === 1" />
+        <q-btn flat round icon="remove" @click.stop="cartRemove" :disabled="count === 1" />
         <span>{{ count }}</span>
-        <q-btn flat round icon="add" @click="cartAdd" :disabled="count === product.stock"/>
+        <q-btn flat round icon="add" @click.stop="cartAdd" :disabled="count === product.stock"/>
       </div>
-      <q-btn flat>Adicionar</q-btn>
+      <q-btn flat @click.stop="cartStoreAdd">Adicionar</q-btn>
     </q-card-actions>
   </q-card>
 </template>
@@ -103,11 +104,20 @@ Instruções de Uso
   };
 
   const cartAdd = () => {
+    count.value += 1;
+  };
+
+  const cartStoreAdd = () => {
     cartStore.addProduct(props.product);
   };
 
-  const cartRemove = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const cartStoreRemove = () => {
     cartStore.removeProduct(props.product?.id);
+  };
+
+  const cartRemove = () => {
+    count.value -= 1;
   };
 </script>
 
