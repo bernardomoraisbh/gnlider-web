@@ -61,6 +61,11 @@
             Variantes dos Produtos
           </q-item-section>
         </q-item>
+        <q-item clickable @click="navigateTo('/management/orders')">
+          <q-item-section>
+            Ordens de Compras
+          </q-item-section>
+        </q-item>
         <q-item clickable @click="navigateTo('/management/external-users')">
           <q-item-section>
             Usuários Externos
@@ -72,6 +77,14 @@
 
     <q-page-container>
       <router-view />
+      <q-btn
+        v-if="!isMobile"
+        class="dark-mode-btn"
+        fab
+        :icon="iconeModoCor"
+        :label="textoModoCor"
+        @click="atualizarModoCores"
+        />
     </q-page-container>
 
   </q-layout>
@@ -79,13 +92,15 @@
 
 <script setup lang="ts">
 
-  import { ref } from "vue";
+  import { useQuasar } from "quasar";
+  import { computed, ref } from "vue";
   import { useRouter } from "vue-router";
   import HelpMenu from "../components/HelpMenu.vue";
   import { useScreenInfo } from "../composables/deviceComposable";
 
   const { isMobile } = useScreenInfo();
   const router = useRouter();
+  const $q = useQuasar();
 
   defineOptions({
     name: "MainLayoutAdmin",
@@ -101,6 +116,14 @@
   const navigateTo = (path: any) => {
     router.push(path);
   };
+
+  const atualizarModoCores = () => {
+    $q.dark.set(!$q.dark.isActive);
+  };
+
+  const textoModoCor = computed(() => ($q.dark.isActive ? "Modo Claro" : "Modo Escuro"));
+
+  const iconeModoCor = computed(() => ($q.dark.isActive ? "light_mode" : "dark_mode"));
 </script>
 
 <style scoped>
@@ -122,5 +145,12 @@
 
 .custom-placeholder-color::placeholder {
   color: white !important; /* Change the placeholder text color here */
+}
+
+.dark-mode-btn {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
 }
 </style>

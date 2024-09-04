@@ -33,7 +33,7 @@
         <q-bar>
           <q-space />
           <q-btn dense flat icon="close" v-close-popup>
-            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
+            <q-tooltip class="bg-white text-primary">Fechar</q-tooltip>
           </q-btn>
         </q-bar>
         <q-card-section>
@@ -64,6 +64,12 @@
 
     <q-dialog v-model="showEditDialog" full-width transition-show="slide-up">
       <q-card>
+        <q-bar>
+          <q-space />
+          <q-btn dense flat icon="close" v-close-popup>
+            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
+          </q-btn>
+        </q-bar>
         <q-card-section>
           <q-input v-model="currentProduct.name" label="Nome" filled />
           <q-input v-model="currentProduct.resumedDescription" label="Descrição Resumida" filled />
@@ -84,6 +90,7 @@
           <q-input v-model="currentProduct.productVideoUrl" label="URL do Vídeo" filled />
         </q-card-section>
         <q-card-actions>
+          <q-space />
           <q-btn label="Cancelar" @click="showEditDialog = false" />
           <q-btn label="Salvar" color="primary" @click="updateProduct" />
         </q-card-actions>
@@ -93,10 +100,10 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, reactive, computed } from "vue";
-  import { QTable, QDialog, QCard, QCardSection, QCardActions, QBtn, QInput, QTd, QToggle } from "quasar";
-  import productsData from "src/mocks/products.json";
+  import { QBtn, QCard, QCardActions, QCardSection, QDialog, QInput, QTable, QTd, QToggle } from "quasar";
   import { Product } from "src/interfaces/product";
+  import productsData from "src/mocks/products.json";
+  import { computed, reactive, ref } from "vue";
 
   const products = ref<Product[]>(productsData as Product[]);
 

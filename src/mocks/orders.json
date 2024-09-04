@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 101,
+      "name": "John Doe"
+    },
+    "status": "pending",
+    "orderProducts": [
+      {
+        "id": 201,
+        "status": "pending",
+        "amount": 2,
+        "orderItems": [
+          {
+            "id": 301,
+            "amount": 2,
+            "orderProduct": {
+              "id": 1,
+              "name": "Soro Fisiológico 0,9% 100 ml - Farmarin",
+              "description": "Soro Fisiológico 100ml Cloreto de Sódio 0,9%",
+              "stock": 50,
+              "referenceCode": "384994",
+              "price": {
+                "currency": "R$",
+                "amount": 19.99
+              },
+              "productImage1Url": "/images/SORO_100.jpg",
+              "productImage2Url": "/images/SORO_100.jpg",
+              "productImage3Url": "/images/SORO_100.jpg",
+              "productImage4Url": "/images/SORO_100.jpg",
+              "productVideoUrl": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 102,
+      "name": "Jane Smith"
+    },
+    "status": "shipped",
+    "orderProducts": [
+      {
+        "id": 202,
+        "status": "shipped",
+        "amount": 1,
+        "orderItems": [
+          {
+            "id": 302,
+            "amount": 1,
+            "orderProduct": {
+              "id": 2,
+              "name": "Shampoo Anticaspa - Clear Men",
+              "description": "Shampoo anticaspa Clear Men 200ml",
+              "stock": 100,
+              "referenceCode": "765432",
+              "price": {
+                "currency": "R$",
+                "amount": 29.99
+              },
+              "productImage1Url": "/images/SHAMPOO_200.jpg",
+              "productImage2Url": "/images/SHAMPOO_200.jpg",
+              "productImage3Url": "/images/SHAMPOO_200.jpg",
+              "productImage4Url": "/images/SHAMPOO_200.jpg",
+              "productVideoUrl": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 103,
+      "name": "Bob Johnson"
+    },
+    "status": "delivered",
+    "orderProducts": [
+      {
+        "id": 203,
+        "status": "delivered",
+        "amount": 3,
+        "orderItems": [
+          {
+            "id": 303,
+            "amount": 3,
+            "orderProduct": {
+              "id": 3,
+              "name": "Cotonetes - Johnson's Baby",
+              "description": "Cotonetes Johnson's Baby 75 unidades",
+              "stock": 200,
+              "referenceCode": "112233",
+              "price": {
+                "currency": "R$",
+                "amount": 9.99
+              },
+              "productImage1Url": "/images/COTONETE_75.jpg",
+              "productImage2Url": "/images/COTONETE_75.jpg",
+              "productImage3Url": "/images/COTONETE_75.jpg",
+              "productImage4Url": "/images/COTONETE_75.jpg",
+              "productVideoUrl": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 104,
+      "name": "Alice Brown"
+    },
+    "status": "cancelled",
+    "orderProducts": [
+      {
+        "id": 204,
+        "status": "cancelled",
+        "amount": 1,
+        "orderItems": [
+          {
+            "id": 304,
+            "amount": 1,
+            "orderProduct": {
+              "id": 4,
+              "name": "Protetor Solar FPS 50 - Nivea Sun",
+              "description": "Protetor Solar Nivea Sun FPS 50 - 200ml",
+              "stock": 80,
+              "referenceCode": "998877",
+              "price": {
+                "currency": "R$",
+                "amount": 59.99
+              },
+              "productImage1Url": "/images/PROTETOR_200.jpg",
+              "productImage2Url": "/images/PROTETOR_200.jpg",
+              "productImage3Url": "/images/PROTETOR_200.jpg",
+              "productImage4Url": "/images/PROTETOR_200.jpg",
+              "productVideoUrl": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

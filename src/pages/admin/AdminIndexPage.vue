@@ -77,6 +77,18 @@
 
           <q-card
             class="card"
+            @click="navigateTo('/management/orders')"
+            flat
+            bordered
+            >
+            <q-card-section>
+              <div class="text-h6">Ordens de Compras</div>
+              <div>Gerenciar as ordens de compras dos usuários</div>
+            </q-card-section>
+          </q-card>
+
+          <q-card
+            class="card"
             @click="navigateTo('/management/external-users')"
             flat
             bordered

@@ -31,6 +31,12 @@
 
     <q-dialog v-model="showCreateDialog" full-width transition-show="slide-up">
       <q-card>
+        <q-bar>
+          <q-space />
+          <q-btn dense flat icon="close" v-close-popup>
+            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
+          </q-btn>
+        </q-bar>
         <q-card-section>
           <q-input v-model="newVariant.name" label="Nome" filled />
           <q-input v-model="newVariant.description" label="Descrição" filled />
@@ -51,6 +57,7 @@
           <q-input v-model="newVariant.productVideoUrl" label="URL do Vídeo" filled />
         </q-card-section>
         <q-card-actions>
+          <q-space />
           <q-btn label="Cancelar" @click="showCreateDialog = false" />
           <q-btn label="Salvar" color="primary" @click="createVariant" />
         </q-card-actions>
@@ -59,6 +66,12 @@
 
     <q-dialog v-model="showEditDialog" full-width transition-show="slide-up">
       <q-card>
+        <q-bar>
+          <q-space />
+          <q-btn dense flat icon="close" v-close-popup>
+            <q-tooltip class="bg-white text-primary">Close</q-tooltip>
+          </q-btn>
+        </q-bar>
         <q-card-section>
           <q-input v-model="currentVariant.name" label="Nome" filled />
           <q-input v-model="currentVariant.description" label="Descrição" filled />
@@ -79,6 +92,7 @@
           <q-input v-model="currentVariant.productVideoUrl" label="URL do Vídeo" filled />
         </q-card-section>
         <q-card-actions>
+          <q-space />
           <q-btn label="Cancelar" @click="showEditDialog = false" />
           <q-btn label="Salvar" color="primary" @click="updateVariant" />
         </q-card-actions>
@@ -88,22 +102,22 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, reactive, computed } from "vue";
   import {
-    QTable,
-    QDialog,
-    QCard,
-    QCardSection,
-    QCardActions,
     QBtn,
+    QCard,
+    QCardActions,
+    QCardSection,
+    QDialog,
     QInput,
     QSelect,
+    QTable,
     QTd,
   } from "quasar";
-  import variantsData from "src/mocks/productsVariants.json";
-  import productsData from "src/mocks/products.json"; // Assume this is your products data
-  import { ProductVariant } from "src/interfaces/productVariant";
   import { Product, defaultProduct } from "src/interfaces/product";
+  import { ProductVariant } from "src/interfaces/productVariant";
+  import productsData from "src/mocks/products.json"; // Assume this is your products data
+  import variantsData from "src/mocks/productsVariants.json";
+  import { computed, reactive, ref } from "vue";
 
   const variants = ref<ProductVariant[]>(variantsData as ProductVariant[]);
   const products = ref<Product[]>(productsData as Product[]); // Products list

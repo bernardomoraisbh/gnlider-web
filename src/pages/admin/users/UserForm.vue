@@ -1,9 +1,15 @@
 <template>
-  <q-dialog v-model="showDialog" persistent>
+  <q-dialog v-model="showDialog" persistent full-width transition-show="slide-up">
     <q-card>
-      <q-card-section>
-        <div class="text-h6">{{ isEditMode ? 'Editar Usuário' : 'Criar Usuário' }}</div>
-      </q-card-section>
+      <q-bar>
+        <div class="text-h6">
+          {{ isEditMode ? 'Editar Usuário Externo' : 'Criar Usuário Externo' }}
+        </div>
+        <q-space />
+        <q-btn dense flat icon="close" v-close-popup>
+          <q-tooltip class="bg-white text-primary">Fechar</q-tooltip>
+        </q-btn>
+      </q-bar>
 
       <q-card-section>
         <q-form @submit="submitForm">
@@ -23,21 +29,24 @@
           <q-checkbox v-model="form.isWhatsapp" label="Is WhatsApp?" />
           <q-input v-model="form.cellphone" label="Cellphone" />
           <!-- Add fields for Address management if needed -->
-
-          <q-btn label="Submit" type="submit" color="primary" />
-          <q-btn label="Cancel" flat @click="closeDialog" />
         </q-form>
       </q-card-section>
+
+      <q-card-actions>
+        <q-space />
+        <q-btn label="Salvar" type="submit" color="primary" />
+        <q-btn label="Cancelar" flat @click="closeDialog" />
+      </q-card-actions>
     </q-card>
   </q-dialog>
 </template>
 
 <script setup lang="ts">
-  import { ref, defineExpose, watch } from "vue";
+  import { defaultProfession } from "src/interfaces/profession";
   import { Female, Male, Other, defaultSex } from "src/interfaces/sex";
   import { MG, defaultUf } from "src/interfaces/uf";
-  import { defaultProfession } from "src/interfaces/profession";
   import { User } from "src/interfaces/user"; // Adjust the import path
+  import { defineExpose, ref, watch } from "vue";
 
   const showDialog = ref(false);
   const isEditMode = ref(false);
