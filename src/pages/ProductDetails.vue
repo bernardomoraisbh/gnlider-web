@@ -90,12 +90,14 @@
   import { computed, ref } from "vue";
   import { useScreenInfo } from "../composables/deviceComposable";
 
-  const { isMobile } = useScreenInfo();
-
   import { Product } from "src/interfaces/product";
   import productsData from "../mocks/products.json"; // Import the JSON file containing the products
 
   import { useRoute } from "vue-router";
+  import { useCartStore } from "../stores/cart";
+
+  const { isMobile } = useScreenInfo();
+  const cartStore = useCartStore();
 
   const route = useRoute();
 
@@ -118,7 +120,7 @@
 
   const addToCart = () => {
     // eslint-disable-next-line no-console
-    console.log("Add to cart clicked");
+    cartStore.addProduct(product.value);
   };
 
   const rowCarouselProductClass = computed(() => {

@@ -34,7 +34,7 @@
             bordered
             >
             <q-card-section>
-              <div class="text-h6">SubCategorias de Produtos</div>
+              <div class="text-h6">Subcategorias de Produtos</div>
               <div>Gerenciar subcategorias dos produtos</div>
             </q-card-section>
           </q-card>

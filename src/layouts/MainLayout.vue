@@ -17,15 +17,17 @@
                style="cursor: pointer;"/>
         </div>
         <div class="header-actions">
-          <LoginMenu v-if="false"/>
+          <LoginMenu/>
+          <UserProfileMenu />
           <HelpMenu />
         </div>
       </q-toolbar>
-      <div class="header-container" v-if="false">
+      <div class="header-container">
         <q-toolbar>
-          <q-toolbar-title>
+          <q-toolbar-title v-if="false">
             <q-btn flat label="Categorias" icon="category" />
           </q-toolbar-title>
+          <q-space />
           <q-input
             v-model="searchTerm"
             label-color="inherit"
@@ -35,6 +37,7 @@
             class="custom-placeholder-color"
             :input-style="{ color: 'white' }"
             color="white"
+            :disable="true"
             >
             <template v-slot:prepend>
               <q-icon name="search" />
@@ -105,6 +108,7 @@
   import HelpMenu from "../components/HelpMenu.vue";
   import LoginMenu from "../components/LoginMenu.vue";
   import RightDrawerCart from "../components/RightDrawerCart.vue";
+  import UserProfileMenu from "../components/UserProfileMenu.vue";
   import { useScreenInfo } from "../composables/deviceComposable";
   import { useCartStore } from "../stores/cart";
 

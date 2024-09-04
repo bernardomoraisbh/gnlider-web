@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh lpR lFf">>
+  <q-layout view="hHh lpR lFf">
     <q-header elevated>
       <q-toolbar class="header">
         <q-btn
@@ -11,9 +11,13 @@
           aria-label="Menu"
           />
         <div class="header-actions" v-if="!isMobile">
-          <img src="~assets/logo_full.svg" height="80" width="80"
-               @click="homeRedirect"
-               style="cursor: pointer;"/>
+          <img
+            src="~assets/logo_full.svg"
+            height="80"
+            width="80"
+            @click="homeRedirect"
+            style="cursor: pointer;"
+            />
         </div>
         <div class="header-actions">
           <HelpMenu />
@@ -23,55 +27,16 @@
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" elevated>
       <q-list>
-        <q-item-label header>
-          GN Líder Admin
-        </q-item-label>
-        <q-item clickable @click="navigateTo('/management')">
-          <q-item-section>
-            Home
-          </q-item-section>
+        <q-item-label header>GN Líder Admin</q-item-label>
+        <q-item
+          v-for="item in navigationItems"
+          :key="item.label"
+          clickable
+          @click="navigateTo(item.path)"
+          class="nav-card"
+          >
+          <q-item-section>{{ item.label }}</q-item-section>
         </q-item>
-        <q-item clickable @click="navigateTo('/management/brands')">
-          <q-item-section>
-            Marcas
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/product-category')">
-          <q-item-section>
-            Categorias de Produtos
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/product-subcategory')">
-          <q-item-section>
-            SubCategorias de Produtos
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/product-types')">
-          <q-item-section>
-            Tipos de Produtos
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/products')">
-          <q-item-section>
-            Produtos
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/products-variants')">
-          <q-item-section>
-            Variantes dos Produtos
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/orders')">
-          <q-item-section>
-            Ordens de Compras
-          </q-item-section>
-        </q-item>
-        <q-item clickable @click="navigateTo('/management/external-users')">
-          <q-item-section>
-            Usuários Externos
-          </q-item-section>
-        </q-item>
-        <!-- Add more items as needed -->
       </q-list>
     </q-drawer>
 
@@ -86,12 +51,10 @@
         @click="atualizarModoCores"
         />
     </q-page-container>
-
   </q-layout>
 </template>
 
 <script setup lang="ts">
-
   import { useQuasar } from "quasar";
   import { computed, ref } from "vue";
   import { useRouter } from "vue-router";
@@ -112,6 +75,18 @@
     router.push({ path: "/" });
   };
 
+  const navigationItems = [
+    { label: "Home", path: "/management" },
+    { label: "Marcas", path: "/management/brands" },
+    { label: "Categorias de Produtos", path: "/management/product-category" },
+    { label: "SubCategorias de Produtos", path: "/management/product-subcategory" },
+    { label: "Tipos de Produtos", path: "/management/product-types" },
+    { label: "Produtos", path: "/management/products" },
+    { label: "Variantes dos Produtos", path: "/management/products-variants" },
+    { label: "Ordens de Compras", path: "/management/orders" },
+    { label: "Usuários Externos", path: "/management/external-users" },
+  ];
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const navigateTo = (path: any) => {
     router.push(path);
@@ -128,7 +103,6 @@
 
 <style scoped>
 .header {
-  /* Add your styling for the header section here */
   justify-content: space-between;
   align-items: center;
 }
@@ -138,13 +112,28 @@
   gap: 1rem;
 }
 
-.header-container {
-  display: flex; /* Allow header and search bar to fit side-by-side */
-  margin-bottom: 2px;
+.nav-card {
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  background-color: var(--q-color-grey-1);
+  color: var(--q-color-primary);
 }
 
-.custom-placeholder-color::placeholder {
-  color: white !important; /* Change the placeholder text color here */
+.nav-card:hover {
+  background-color: var(--q-color-primary-lighten);
+  color: var(--q-color-dark);
+}
+
+.q-dark .nav-card {
+  background-color: var(--q-color-dark);
+  color: var(--q-color-primary);
+}
+
+.q-dark .nav-card:hover {
+  background-color: var(--q-color-primary);
+  color: var(--q-color-grey-1);
 }
 
 .dark-mode-btn {

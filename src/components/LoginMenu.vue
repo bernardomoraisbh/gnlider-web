@@ -17,7 +17,7 @@
               <q-btn unelevated color="light-green-7" size="lg" class="full-width" label="Login" />
             </q-card-actions>
             <q-card-section class="text-center q-px-md">
-              <a href="/account/create" class="text-grey-6">
+              <a href="#" @click="navigateTo('/account/create')" class="text-grey-6">
                 Não possui conta? Clique aqui para cadastrar-se!
               </a>
             </q-card-section>
@@ -65,6 +65,7 @@
 
 <script setup lang="ts">
   import { ref } from "vue";
+  import { useRouter } from "vue-router";
 
   defineOptions({
     name: "LoginMenu",
@@ -72,5 +73,12 @@
 
   const email = ref("");
   const password = ref("");
+
+  const router = useRouter();
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const navigateTo = (path: any) => {
+    router.push(path);
+  };
 
 </script>
