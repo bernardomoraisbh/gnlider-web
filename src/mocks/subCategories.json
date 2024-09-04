@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphones",
+    "description": "Handheld devices for communication and entertainment.",
+    "productCategory": {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Devices and gadgets for everyday use."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Laptops",
+    "description": "Portable computers for work and play.",
+    "productCategory": {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Devices and gadgets for everyday use."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Men's Clothing",
+    "description": "Apparel for men, including shirts, pants, and outerwear.",
+    "productCategory": {
+      "id": 2,
+      "name": "Fashion",
+      "description": "Clothing, accessories, and more."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Women's Clothing",
+    "description": "Apparel for women, including dresses, tops, and outerwear.",
+    "productCategory": {
+      "id": 2,
+      "name": "Fashion",
+      "description": "Clothing, accessories, and more."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fiction Books",
+    "description": "Literary works based on imagination and storytelling.",
+    "productCategory": {
+      "id": 3,
+      "name": "Books",
+      "description": "Reading materials for all ages."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Non-Fiction Books",
+    "description": "Books based on factual information.",
+    "productCategory": {
+      "id": 3,
+      "name": "Books",
+      "description": "Reading materials for all ages."
+    }
+  }
+]

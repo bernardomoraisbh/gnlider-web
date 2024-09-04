@@ -9,3 +9,9 @@ export const defaultUf: Uf = {
   name: "Not Specified",
   abbreviation: "NS",
 };
+
+export const MG: Uf = {
+  id: 0,
+  name: "Minas Gerais",
+  abbreviation: "MG",
+};

@@ -17,11 +17,11 @@
                style="cursor: pointer;"/>
         </div>
         <div class="header-actions">
-          <LoginMenu />
+          <LoginMenu v-if="false"/>
           <HelpMenu />
         </div>
       </q-toolbar>
-      <div class="header-container">
+      <div class="header-container" v-if="false">
         <q-toolbar>
           <q-toolbar-title>
             <q-btn flat label="Categorias" icon="category" />

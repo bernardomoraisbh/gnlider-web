@@ -24,9 +24,49 @@
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" elevated>
       <q-list>
         <q-item-label header>
-          GN Líder
+          GN Líder Admin
         </q-item-label>
-        <!--TODO ADICIONAR MENUS LATERAIS MOBILE-->
+        <q-item clickable @click="navigateTo('/management')">
+          <q-item-section>
+            Home
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/brands')">
+          <q-item-section>
+            Marcas
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/product-category')">
+          <q-item-section>
+            Categorias de Produtos
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/product-subcategory')">
+          <q-item-section>
+            SubCategorias de Produtos
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/product-types')">
+          <q-item-section>
+            Tipos de Produtos
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/products')">
+          <q-item-section>
+            Produtos
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/products-variants')">
+          <q-item-section>
+            Variantes dos Produtos
+          </q-item-section>
+        </q-item>
+        <q-item clickable @click="navigateTo('/management/external-users')">
+          <q-item-section>
+            Usuários Externos
+          </q-item-section>
+        </q-item>
+        <!-- Add more items as needed -->
       </q-list>
     </q-drawer>
 
@@ -55,6 +95,11 @@
 
   const homeRedirect = () => {
     router.push({ path: "/" });
+  };
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const navigateTo = (path: any) => {
+    router.push(path);
   };
 </script>
 

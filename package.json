@@ -14,6 +14,7 @@
   "dependencies": {
     "@quasar/extras": "^1.16.11",
     "axios": "^1.4.0",
+    "gnlider-web": "file:",
     "pinia": "^2.0.36",
     "quasar": "^2.8.0",
     "vue": "^3.4.18",

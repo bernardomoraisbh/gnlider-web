@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Variant A",
+    "description": "Description for Variant A",
+    "stock": 100,
+    "referenceCode": "VARA100",
+    "product": {
+      "id": 1,
+      "name": "Product 1"
+    },
+    "productImage1Url": "/images/SORO 100.jpg",
+    "productImage2Url": "/images/SORO 100.jpg",
+    "productImage3Url": "/images/SORO 100.jpg",
+    "productImage4Url": "/images/SORO 100.jpg",
+    "productVideoUrl": "",
+    "price": {
+      "currency": "R$",
+      "amount": 19.99
+    }
+  },
+  {
+    "id": 2,
+    "name": "Variant B",
+    "description": "Description for Variant B",
+    "stock": 50,
+    "referenceCode": "VARB200",
+    "product": {
+      "id": 1,
+      "name": "Product 1"
+    },
+    "productImage1Url": "/images/SORO 100.jpg",
+    "productImage2Url": "/images/SORO 100.jpg",
+    "productImage3Url": "/images/SORO 100.jpg",
+    "productImage4Url": "/images/SORO 100.jpg",
+    "productVideoUrl": "",
+    "price": {
+      "currency": "R$",
+      "amount": 29.99
+    }
+  },
+  {
+    "id": 3,
+    "name": "Variant C",
+    "description": "Description for Variant C",
+    "stock": 75,
+    "referenceCode": "VARC300",
+    "product": {
+      "id": 2,
+      "name": "Product 2"
+    },
+    "productImage1Url": "/images/SORO 100.jpg",
+    "productImage2Url": "/images/SORO 100.jpg",
+    "productImage3Url": "/images/SORO 100.jpg",
+    "productImage4Url": "/images/SORO 100.jpg",
+    "productVideoUrl": "",
+    "price": {
+      "currency": "R$",
+      "amount": 39.99
+    }
+  },
+  {
+    "id": 4,
+    "name": "Variant D",
+    "description": "Description for Variant D",
+    "stock": 200,
+    "referenceCode": "VARD400",
+    "product": {
+      "id": 2,
+      "name": "Product 2"
+    },
+    "productImage1Url": "/images/SORO 100.jpg",
+    "productImage2Url": "/images/SORO 100.jpg",
+    "productImage3Url": "/images/SORO 100.jpg",
+    "productImage4Url": "/images/SORO 100.jpg",
+    "productVideoUrl": "",
+    "price": {
+      "currency": "R$",
+      "amount": 49.99
+    }
+  },
+  {
+    "id": 5,
+    "name": "Variant E",
+    "description": "Description for Variant E",
+    "stock": 120,
+    "referenceCode": "VARE500",
+    "product": {
+      "id": 3,
+      "name": "Product 3"
+    },
+    "productImage1Url": "/images/SORO 100.jpg",
+    "productImage2Url": "/images/SORO 100.jpg",
+    "productImage3Url": "/images/SORO 100.jpg",
+    "productImage4Url": "/images/SORO 100.jpg",
+    "productVideoUrl": "",
+    "price": {
+      "currency": "R$",
+      "amount": 59.99
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics",
+    "description": "Devices and gadgets for everyday use."
+  },
+  {
+    "id": 2,
+    "name": "Fashion",
+    "description": "Clothing, accessories, and more."
+  },
+  {
+    "id": 3,
+    "name": "Books",
+    "description": "Reading materials for all ages."
+  }
+]
