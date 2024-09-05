@@ -21,6 +21,15 @@
             </q-item-section>
           </q-item>
           <q-separator />
+          <q-item tag="a" @click="navigateTo('/management')" clickable v-close-popup>
+            <q-item-section avatar>
+              <q-icon name="exit_to_app" />
+            </q-item-section>
+            <q-item-section>
+              Administrativo
+            </q-item-section>
+          </q-item>
+          <q-separator />
           <q-item tag="a" @click="navigateTo('/logout')" clickable v-close-popup>
             <q-item-section avatar>
               <q-icon name="exit_to_app" />

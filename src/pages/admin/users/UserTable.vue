@@ -24,18 +24,24 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, computed } from "vue";
   import { User } from "src/interfaces/user"; // Adjust the import path
+  import { computed, ref } from "vue";
   import UserForm from "./UserForm.vue"; // Adjust the import path
 
   const users = ref<User[]>([]); // Replace with your data source
   const searchTerm = ref("");
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: string | ((row: User) => any); // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "name", label: "Nome", field: "name" },
     { name: "email", label: "Email", field: "email" },
     { name: "cpf", label: "CPF", field: "cpf" },
-    { name: "actions", label: "Ações", align: "right" },
+    { name: "actions", label: "Ações", align: "right", field: () => "" }, // Use a function for the 'actions' column
   ];
 
   const filteredUsers = computed(() => {

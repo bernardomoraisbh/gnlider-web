@@ -76,12 +76,12 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, reactive, computed } from "vue";
-  import { QTable, QDialog, QCard, QCardSection, QCardActions, QBtn, QInput, QTd, QSelect } from "quasar";
-  import categoriesData from "src/mocks/categories.json";
-  import subCategoriesData from "src/mocks/subCategories.json";
+  import { QBtn, QCard, QCardActions, QCardSection, QDialog, QInput, QSelect, QTable, QTd } from "quasar";
   import { ProductCategory } from "src/interfaces/productCategory";
   import { ProductSubCategory } from "src/interfaces/productSubCategory";
+  import categoriesData from "src/mocks/categories.json";
+  import subCategoriesData from "src/mocks/subCategories.json";
+  import { computed, reactive, ref } from "vue";
 
   const categories = ref<ProductCategory[]>(categoriesData as ProductCategory[]);
   const subCategories = ref<ProductSubCategory[]>(subCategoriesData as ProductSubCategory[]);
@@ -95,7 +95,13 @@
   // eslint-disable-next-line max-len
   const filteredSubCategories = computed(() => subCategories.value.filter((subCategory) => subCategory.name.toLowerCase().includes(searchTerm.value.toLowerCase())));
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: any; // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "name", label: "Nome", align: "left", field: "name" },
     { name: "description", label: "Descrição", align: "left", field: "description" },
     { name: "productCategory", label: "Categoria", align: "left", field: (row: ProductSubCategory) => row.productCategory.name },

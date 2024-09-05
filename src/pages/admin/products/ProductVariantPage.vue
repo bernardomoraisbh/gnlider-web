@@ -163,7 +163,13 @@
   // eslint-disable-next-line max-len
   const filteredVariants = computed(() => variants.value.filter((variant) => variant.name.toLowerCase().includes(searchTerm.value.toLowerCase())));
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: string | ((row: ProductVariant) => any); // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "name", label: "Nome", align: "left", field: "name" },
     { name: "description", label: "Descrição", align: "left", field: "description" },
     { name: "stock", label: "Estoque", align: "left", field: "stock" },

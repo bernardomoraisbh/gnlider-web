@@ -59,10 +59,10 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, reactive, computed } from "vue";
-  import { QTable, QDialog, QCard, QCardSection, QCardActions, QBtn, QInput, QTd } from "quasar";
-  import productTypesData from "src/mocks/productTypes.json";
+  import { QBtn, QCard, QCardActions, QCardSection, QDialog, QInput, QTable, QTd } from "quasar";
   import { ProductType } from "src/interfaces/productType";
+  import productTypesData from "src/mocks/productTypes.json";
+  import { computed, reactive, ref } from "vue";
 
   const productTypes = ref<ProductType[]>(productTypesData as ProductType[]);
 
@@ -75,7 +75,13 @@
   // eslint-disable-next-line max-len
   const filteredProductTypes = computed(() => productTypes.value.filter((productType) => productType.name.toLowerCase().includes(searchTerm.value.toLowerCase())));
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: string | ((row: ProductType) => any); // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "name", label: "Nome", align: "left", field: "name" },
     { name: "description", label: "Descrição", align: "left", field: "description" },
     { name: "action", label: "Ações", align: "center", field: "action" },

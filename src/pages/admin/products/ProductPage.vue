@@ -148,7 +148,13 @@
   // eslint-disable-next-line max-len
   const filteredProducts = computed(() => products.value.filter((product) => product.name.toLowerCase().includes(searchTerm.value.toLowerCase())));
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: string | ((row: Product) => any); // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "name", label: "Nome", align: "left", field: "name" },
     { name: "resumedDescription", label: "Descrição Resumida", align: "left", field: "resumedDescription" },
     { name: "price", label: "Preço", align: "left", field: (row: Product) => `${row.price.amount} ${row.price.currency}` },

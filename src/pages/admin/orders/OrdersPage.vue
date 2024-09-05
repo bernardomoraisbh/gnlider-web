@@ -114,7 +114,13 @@
   // eslint-disable-next-line max-len
   const filteredOrders = computed(() => orders.value.filter((order) => order.id.toString().includes(searchTerm.value)));
 
-  const columns = [
+  const columns: {
+    name: string;
+    label: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    field: string | ((row: Order) => any); // Remove optional field
+    align?: "right" | "left" | "center";
+  }[] = [
     { name: "id", label: "ID", align: "left", field: "id" },
     { name: "status", label: "Status", align: "left", field: "status" },
     { name: "user", label: "Usuário", align: "left",  field: (row: Order) => `${row.user.name}` },
